@@ -1,0 +1,37 @@
+[
+    {
+        "shirt": [
+            {
+                "id": 1,
+                "name": "US Polo",
+                "price": 1000,
+                "image": "https://cdn.esawebb.org/archives/images/screen/potm2209a.jpg",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "name": "Puma",
+                "price": 2000,
+                "image": "null",
+                "description": ""
+            }
+        ],
+        
+        "pant": [
+            {
+                "id": 1,
+                "name": "Puma",
+                "price": 1000,
+                "image": "null",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "name": "Nike",
+                "price": 2000,
+                "image": "null",
+                "description": ""
+            }
+        ]
+    }
+]
