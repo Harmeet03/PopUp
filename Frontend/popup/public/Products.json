@@ -1,37 +1,204 @@
-[
-    {
-        "shirt": [
-            {
-                "id": 1,
-                "name": "US Polo",
-                "price": 1000,
-                "image": "https://cdn.esawebb.org/archives/images/screen/potm2209a.jpg",
-                "description": ""
-            },
-            {
-                "id": 2,
-                "name": "Puma",
-                "price": 2000,
-                "image": "null",
-                "description": ""
-            }
-        ],
-        
-        "pant": [
-            {
-                "id": 1,
-                "name": "Puma",
-                "price": 1000,
-                "image": "null",
-                "description": ""
-            },
-            {
-                "id": 2,
-                "name": "Nike",
-                "price": 2000,
-                "image": "null",
-                "description": ""
-            }
-        ]
-    }
-]
+{
+    "phones": [
+        {
+            "apple": [
+                {
+                    "id": 1,
+                    "name": "Apple iPhone 15 Pro Max",
+                    "processor": "Apple A17 Pro",
+                    "display": "6.7-inch Super Retina XDR, 120Hz ProMotion",
+                    "camera": "48MP primary, 12MP ultra-wide, 12MP telephoto",
+                    "battery": "4323mAh with 20W fast charging",
+                    "description": "The Apple iPhone 15 Pro Max, launched in September 2023, represents a significant advancement in Apple's smartphone lineup. Crafted with an aerospace-grade titanium frame, it offers both strength and reduced weight, making it the lightest Pro model to date. The device features a 6.7-inch Super Retina XDR display with Always-On and ProMotion technologies, ensuring vibrant visuals and smooth performance"
+                },
+                {
+                    "id": 2,
+                    "name": "Apple iPhone 11"
+                },
+                {
+                    "id": 3
+                }
+            ],
+
+            "samsung": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                }
+            ],
+
+            "xiaomi": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                }
+            ],
+
+            "realme": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                }
+            ]
+        }
+    ],
+
+    "laptops": [
+        {
+            "apple": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                }
+            ],
+
+            "asus": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                }
+            ],
+
+            "dell": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                }
+            ],
+
+            "hp": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                }
+            ]
+        }
+    ],
+
+    "watches": [
+        {
+            "apple": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                }
+            ],
+
+            "samsung": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                }
+            ],
+
+            "xiomi": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                }
+            ]
+        }
+    ],
+
+    "headphones": [
+        {
+            "apple": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                }
+            ],
+
+            "oneplus": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                }
+            ],
+
+            "boat": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                }
+            ],
+            
+            "sony": [
+                {
+                    "id": 1
+                },
+                {
+                    "id": 2
+                },
+                {
+                    "id": 3
+                }
+            ]
+        }
+    ]
+}

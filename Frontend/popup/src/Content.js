@@ -1,42 +1,47 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Content = () => {
-    const [product, setProduct] = useState(null);
+    const To = useNavigate();
+    // const [product, setProduct] = useState(null);
 
-    useEffect(() => {
-        fetchProduct()
-    }, [])
+    // useEffect(() => {
+    //     fetchProduct()
+    // }, [])
 
-    const fetchProduct = async () => {
-        try{
-            const response =  await fetch("/Products.json")
-            const data = await response.json()  ;
-            setProduct(data[0]);
-            if(response.ok){
-                console.log('Fetch Success');
-            }
-            else{
-                console.log('Fetch Failed')
-            }
-        }
-        catch(error){
-            console.log('Error ', error)
-        }
-    }
+    // const fetchProduct = async () => {
+    //     try{
+    //         const response =  await fetch("/Products.json")
+    //         const data = await response.json()  ;
+    //         setProduct(data);
+    //         if(response.ok){
+    //             console.log('Fetch Success');
+    //         }
+    //         else{
+    //             console.log('Fetch Failed')
+    //         }
+    //     }
+    //     catch(error){
+    //         console.log('Error ', error)
+    //     }
+    // }
 
     return(
         <>
-            {
-                product ? (
-                    <div>
-                        <img src={product.shirt[0].image} width={250}/>
-                        <p> Product: {product.shirt[0].name} </p>
-                        <p> Price: {product.shirt[0].price} </p>
-                    </div>
-                ) : (
-                    <p> Loading </p>
-                )
-            }
+            <div className="category">
+                <div className="phones" onClick={() => {To('/product-category/phones')}}>
+                    <h3> Phones </h3>
+                </div>
+                <div className="laptops" onClick={() => {To('/product-category/laptops')}}>
+                    <h3> Laptops </h3>
+                </div>
+                <div className="watches"  onClick={() => {To('/product-category/watches')}}>
+                    <h3> Watches </h3>
+                </div>
+                <div className="headphones"  onClick={() => {To('/product-category/headphones')}}>
+                    <h3> Headphones </h3>
+                </div>
+            </div>
         </>
     )
 }
