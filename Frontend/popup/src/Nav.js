@@ -11,9 +11,9 @@ const Nav = () => {
                     <img src={Logo} width={'150px'}/>
                 </div>
                 <div className="links" style={{display: 'flex', gap: '20px'}}>
-                    <p onClick={() => {To('/')}} style={{cursor: 'pointer'}}> Shirt </p>
-                    <p onClick={() => {To('/')}} style={{cursor: 'pointer'}}> Pant </p>
-                    <p onClick={() => {To('/')}} style={{cursor: 'pointer'}}> Shoes </p>
+                    <p onClick={() => {To('/')}} style={{cursor: 'pointer'}}> Cart </p>
+                    <p onClick={() => {To('/')}} style={{cursor: 'pointer'}}> About </p>
+                    <p onClick={() => {To('/')}} style={{cursor: 'pointer'}}> Sign In </p>
                 </div>
             </nav>
         </>

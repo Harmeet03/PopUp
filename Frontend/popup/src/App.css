@@ -4,6 +4,8 @@ body{
   font-family: SF Pro Display, Helvetica Neue, sans-serif;;
 }
 
+/* CATEGORY, LISTS CSS */
+
 .category{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -21,4 +23,8 @@ body{
   background-color: white;
   box-shadow: 2px 4px 12px #00000014;;
   cursor: pointer;
+}
+
+.category > .items{
+  padding: 10px 0px 40px 0px;
 }

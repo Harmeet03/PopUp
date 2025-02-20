@@ -1,12 +1,15 @@
 import Nav from '../Nav'
 import Footer from '../Footer'
+import { useNavigate } from 'react-router-dom'
 
 const Phones = () => {
+    const To = useNavigate()
+
     return(
         <>
             <Nav/>
             <div className='category'>
-                <div className='apple' style={{backgroundImage: `url(https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo.png)`, backgroundSize: '350px auto', backgroundRepeat: 'no-repeat', backgroundPosition: 'center top 25px', color: 'black'}}>
+                <div className='apple' onClick={() => {To('/product-category/phones/apple')}} style={{backgroundImage: `url(https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo.png)`, backgroundSize: '350px auto', backgroundRepeat: 'no-repeat', backgroundPosition: 'center top 25px', color: 'black'}}>
                     <h1> Apple </h1>
                 </div>
                 <div className='samsung' style={{backgroundImage: `url(https://logodownload.org/wp-content/uploads/2014/01/samsung-logo-0.png)`, backgroundSize: '200px auto', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', color: 'white'}}>

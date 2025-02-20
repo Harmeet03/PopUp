@@ -1,10 +1,12 @@
 {
-    "phones": [
+    "phones":
         {
             "apple": [
                 {
                     "id": 1,
-                    "name": "Apple iPhone 15 Pro Max",
+                    "name": "iPhone 15 Pro Max",
+                    "image": "https://imgs.search.brave.com/dkFFquS8IiPA1Pui6pgvy5BUxRLt0uSb010_Pasf_gg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kbmM4/cHQzcTB1bG55LmNs/b3VkZnJvbnQubmV0/L3JwL21lZGlhLzE1/cG1udDEuanBn",
+                    "price": "₹1,29,000",
                     "processor": "Apple A17 Pro",
                     "display": "6.7-inch Super Retina XDR, 120Hz ProMotion",
                     "camera": "48MP primary, 12MP ultra-wide, 12MP telephoto",
@@ -13,10 +15,25 @@
                 },
                 {
                     "id": 2,
-                    "name": "Apple iPhone 11"
+                    "name": "iPhone 14 Pro",
+                    "image": "https://imgs.search.brave.com/0Px2QbFHLXF8TbxM7e5ttqJEM4Jho38orQSlS03b5L8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kbmM4/cHQzcTB1bG55LmNs/b3VkZnJvbnQubmV0/L3JwL21lZGlhLzE0/cHJvcDEuanBn",
+                    "price": "₹1,27,999",
+                    "processor": "Apple A16 Bionic",
+                    "display": "6.1-inch Super Retina XDR, 120Hz ProMotion",
+                    "camera": "48MP primary, 12MP ultra-wide, 12MP telephoto",
+                    "battery": "3200mAh with 20W fast charging",
+                    "description": "The iPhone 14 Pro comes with 6.1-inch OLED display with 120Hz refresh rate and Apple's improved Bionic A16 processor. On the back there is a Triple camera setup with 48MP main camera"
                 },
                 {
-                    "id": 3
+                    "id": 3,
+                    "name": "iPhone 13 Mini",
+                    "image": "https://rukminim2.flixcart.com/image/850/1000/ktketu80/mobile/a/j/u/iphone-13-mini-mlkc3hn-a-apple-original-imag6vp6swvmsbnn.jpeg?q=90&crop=false",
+                    "price": "₹46,500",
+                    "processor": "Apple A15 Bionic",
+                    "display": "5.4-inch Super Retina XDR",
+                    "camera": "12MP primary, 12MP ultra-wide",
+                    "battery": "2438mAh with 20W fast charging",
+                    "description": "The iPhone 13 Mini is the successor to Apple's first super mini flagship in recent years, the iPhone 12 Mini. It retains the same 5.4' screen size and the one-handed use friendly form factor, while at the same time bringing a faster Apple A15 Bionic processor. On the camera front, the 13 Mini keeps a wide and an ultra-wide setup, and it does not have a dedicated telephoto zoom camera."
                 }
             ],
 
@@ -55,10 +72,9 @@
                     "id": 3
                 }
             ]
-        }
-    ],
+        },
 
-    "laptops": [
+    "laptops":
         {
             "apple": [
                 {
@@ -107,10 +123,9 @@
                     "id": 3
                 }
             ]
-        }
-    ],
+        },
 
-    "watches": [
+    "watches":
         {
             "apple": [
                 {
@@ -147,10 +162,9 @@
                     "id": 3
                 }
             ]
-        }
-    ],
+        },
 
-    "headphones": [
+    "headphones":
         {
             "apple": [
                 {
@@ -200,5 +214,4 @@
                 }
             ]
         }
-    ]
 }
