@@ -1,7 +1,7 @@
 body{
   background-color: rgb(245,244,246);
   color: black;
-  font-family: SF Pro Display, Helvetica Neue, sans-serif;;
+  font-family: SF Pro Display, Helvetica Neue, sans-serif;
 }
 
 /* CATEGORY, LISTS CSS */
@@ -21,10 +21,38 @@ body{
   border-radius: 15px;
   padding: 100px 0px;
   background-color: white;
-  box-shadow: 2px 4px 12px #00000014;;
+  box-shadow: 2px 4px 12px #00000014;
   cursor: pointer;
 }
 
 .category > .items{
   padding: 10px 0px 40px 0px;
+}
+
+/* PRODUCT DETAILS CSS */
+.content{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.content > .left{ 
+  padding: 40px 80px;
+  justify-self: center;
+  font-size: 24px;
+}
+
+.content > .right{
+  padding: 80px 80px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+button{
+  background-color: blue;
+  border: none;
+  padding: 20px 40px;
+  color: white;
+  font-size: 16px;
+  border-radius: 20px;
+  width: 500px;
 }

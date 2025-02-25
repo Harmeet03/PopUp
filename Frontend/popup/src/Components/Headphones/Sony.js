@@ -2,9 +2,8 @@ import Nav from "../../Nav";
 import Footer from "../../Footer";
 import React, { useEffect, useState } from "react";
 import Loading from "../../Loading"
-import { Link } from "react-router-dom";
 
-const ApplePhones = () => {
+const SonyHeadphones = () => {
     const [product, setProduct] = useState([]);
     const [loading, setLoading] = useState(true);
     
@@ -18,7 +17,7 @@ const ApplePhones = () => {
             const data = await response.json();
             if(response.ok){
                 console.log('Fetch Success');
-                setProduct(data.phones.apple);
+                setProduct(data.headphones.sony);
                 setLoading(false)
             }
             else{
@@ -31,7 +30,7 @@ const ApplePhones = () => {
             setLoading(true)
         }
     }
-
+    
     if(loading){
         return(
             <>
@@ -39,7 +38,7 @@ const ApplePhones = () => {
             </>
         )
     }
-    
+
     return(
         <>
         <Nav/>
@@ -47,14 +46,11 @@ const ApplePhones = () => {
             {product ? (
                 product.map((item) => (
                     <div className="items" key={item.id}>
-                        <Link style={{color: 'black', textDecoration: 'none'}} to={`/product/phone/apple/${item.url_name}`}>
-                            <h3> {item.name} </h3>
-                            <img src={item.image} width={200} alt="Image not found"/><br/><br/>
-                            <b> {item.price} </b>
-                        </Link>
+                        <h3> {item.name} </h3>
+                        <img src={item.image} width={200} height={200} alt="Image not found"/><br/><br/>
+                        <b> {item.price} </b>
                     </div>
-                    )
-                )
+                ))
             ) : (
                 <p> Loading... </p>
             )
@@ -65,4 +61,5 @@ const ApplePhones = () => {
     )
 }
 
-export default ApplePhones
+
+export default SonyHeadphones;

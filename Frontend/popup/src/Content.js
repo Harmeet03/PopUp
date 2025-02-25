@@ -4,33 +4,11 @@ import Phone from './Media/Phone.jpg'
 
 const Content = () => {
     const To = useNavigate();
-    // const [product, setProduct] = useState(null);
-
-    // useEffect(() => {
-    //     fetchProduct()
-    // }, [])
-
-    // const fetchProduct = async () => {
-    //     try{
-    //         const response =  await fetch("/Products.json")
-    //         const data = await response.json()  ;
-    //         setProduct(data);
-    //         if(response.ok){
-    //             console.log('Fetch Success');
-    //         }
-    //         else{
-    //             console.log('Fetch Failed')
-    //         }
-    //     }
-    //     catch(error){
-    //         console.log('Error ', error)
-    //     }
-    // }
 
     return(
         <>
             <div className="category">
-                <div className="phones" onClick={() => {To('/product-category/phones')}} style={{backgroundImage: `url(https://www.apple.com/v/iphone/home/by/images/overview/consider/environment__e3v3gj88dl6q_xlarge_2x.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+                <div className="phones" onClick={() => {To('/product-category/phones')}} style={{backgroundImage: `url(https://www.apple.com/v/iphone/home/by/images/overview/consider/environment__e3v3gj88dl6q_xlarge_2x.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center', color: 'black'}}>
                     <h1> Phones </h1>
                 </div>
                 <div className="laptops" onClick={() => {To('/product-category/laptops')}}  style={{backgroundImage: `url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-macbook-pro-202410?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1728342374593)`, backgroundSize: 'cover', backgroundPosition: 'center top 305px', color: 'white'}}>

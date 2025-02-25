@@ -4,6 +4,7 @@
             "apple": [
                 {
                     "id": 1,
+                    "url_name": "iphone-15-pro-max",
                     "name": "iPhone 15 Pro Max",
                     "image": "https://imgs.search.brave.com/dkFFquS8IiPA1Pui6pgvy5BUxRLt0uSb010_Pasf_gg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kbmM4/cHQzcTB1bG55LmNs/b3VkZnJvbnQubmV0/L3JwL21lZGlhLzE1/cG1udDEuanBn",
                     "price": "₹1,29,000",
@@ -15,6 +16,7 @@
                 },
                 {
                     "id": 2,
+                    "url_name": "iphone-14-pro",
                     "name": "iPhone 14 Pro",
                     "image": "https://imgs.search.brave.com/0Px2QbFHLXF8TbxM7e5ttqJEM4Jho38orQSlS03b5L8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kbmM4/cHQzcTB1bG55LmNs/b3VkZnJvbnQubmV0/L3JwL21lZGlhLzE0/cHJvcDEuanBn",
                     "price": "₹1,27,999",
@@ -26,6 +28,7 @@
                 },
                 {
                     "id": 3,
+                    "url_name": "iphone-13-mini",
                     "name": "iPhone 13 Mini",
                     "image": "https://rukminim2.flixcart.com/image/850/1000/ktketu80/mobile/a/j/u/iphone-13-mini-mlkc3hn-a-apple-original-imag6vp6swvmsbnn.jpeg?q=90&crop=false",
                     "price": "₹46,500",
@@ -39,37 +42,118 @@
 
             "samsung": [
                 {
-                    "id": 1
+                    "id": 4,
+                    "url_name": "galaxy-s23-ultra",
+                    "name": "Samsung Galaxy S23 Ultra",
+                    "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23-ultra-5g-1.jpg",
+                    "price": "₹1,09,999",  
+                    "processor": "Qualcomm Snapdragon 8 Gen 2",
+                    "display": "6.8-inch Dynamic AMOLED 2X, 120Hz",
+                    "camera": "200MP primary, 12MP ultra-wide, 10MP periscope, 10MP telephoto",
+                    "battery": "5000mAh with 45W fast charging",
+                    "description": "The Samsung Galaxy S23 Ultra is a premium flagship smartphone featuring a 6.8-inch Dynamic AMOLED 2X display with a 120Hz refresh rate for ultra-smooth visuals. Powered by the Snapdragon 8 Gen 2 processor, it delivers top-tier performance. The 200MP quad-camera system ensures stunning photography, while the S Pen stylus enhances productivity. With a 5000mAh battery, 45W fast charging, and One UI software, it's designed for power users who demand the best in performance, photography, and innovation."
                 },
                 {
-                    "id": 2
+                    "id": 5,
+                    "url_name": "galaxy-z-fold-5",
+                    "name": "Samsung Galaxy Z Fold 5",
+                    "image": "https://imgs.search.brave.com/EdDYPgfT6FZhOqAZd4IE2OFFgKuOcDQtG5SEXGKU_sg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mZG4y/LmdzbWFyZW5hLmNv/bS92di9waWNzL3Nh/bXN1bmcvc2Ftc3Vu/Zy1nYWxheHktei1m/b2xkNS01Zy1yMS5q/cGc",
+                    "price": "₹1,54,999",  
+                    "processor": "Qualcomm Snapdragon 8 Gen 2",
+                    "display": "7.6-inch Dynamic AMOLED 2X, 120Hz",
+                    "camera": "50MP primary, 12MP ultra-wide, 10MP telephoto",
+                    "battery": "4400mAh with 25W fast charging",
+                    "description": "The Samsung Galaxy Z Fold 5 is a cutting-edge foldable smartphone featuring a 7.6-inch Dynamic AMOLED 2X main display and a 6.2-inch cover display, both with a 120Hz refresh rate for smooth performance. Powered by the Snapdragon 8 Gen 2 processor, it ensures top-tier multitasking and gaming. The improved hinge design makes it slimmer and more durable. With a 50MP triple-camera setup, 4400mAh battery, 25W fast charging, and S Pen compatibility, it’s perfect for those who want a powerful, versatile device for productivity and entertainment."
                 },
                 {
-                    "id": 3
+                    "id": 6,
+                    "url_name": "galaxy-a54",
+                    "name": "Samsung Galaxy A54",
+                    "image": "https://imgs.search.brave.com/DjsuPIsRPZhHW9T9NXshipJlkVIEQxI0Nxy_ZLiZ6Y8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tb2Jp/bGVpbnRvLmNvbS9p/bWFnZXMvU2Ftc3Vu/Zy1HYWxheHktQTU0/LmpwZw",
+                    "price": "₹33,499",  
+                    "processor": "Exynos 1380",
+                    "display": "6.4-inch Super AMOLED, 120Hz",
+                    "camera": "50MP primary, 12MP ultra-wide, 5MP macro",
+                    "battery": "5000mAh with 25W fast charging",
+                    "description": "The Samsung Galaxy A54 is a mid-range smartphone that offers a 6.4-inch Super AMOLED display with a 120Hz refresh rate for smooth visuals. Powered by the Exynos 1380 processor, it delivers reliable performance for everyday tasks. The 50MP triple-camera system ensures high-quality photos, while the 5000mAh battery with 25W fast charging provides all-day power. With a premium glass back design, One UI software, and IP67 water and dust resistance, the Galaxy A54 is a great choice for users looking for a balance of style, performance, and affordability."
                 }
             ],
-
+            
             "xiaomi": [
                 {
-                    "id": 1
+                    "id": 7,
+                    "url_name": "13-ultra",
+                    "name": "Xiaomi 13 Ultra",
+                    "image": "https://imgs.search.brave.com/w0znh1Hu50nlRRSlRzxeSlNc1Y8p4OWF_yKCS0Uq8YA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4x/LnNtYXJ0cHJpeC5j/b20vcngtaUhYRUNs/MDl1LXc0MjAtaDQy/MC94aWFvbWktMTMt/dWx0cmEtNWcuanBn",
+                    "price": "₹75,000",
+                    "processor": "Qualcomm Snapdragon 8 Gen 2",
+                    "display": "6.73-inch AMOLED, 120Hz",
+                    "camera": "50MP primary, 50MP ultra-wide, 50MP telephoto, 50MP periscope",
+                    "battery": "5000mAh with 90W fast charging",
+                    "description": "The Xiaomi 13 Ultra is a flagship smartphone designed for photography enthusiasts, featuring a 6.73-inch LTPO AMOLED display with a 120Hz refresh rate and Dolby Vision support. Powered by the Snapdragon 8 Gen 2 processor, it delivers top-tier performance. Its standout feature is the 50MP quad-camera system, co-engineered with Leica, offering professional-grade photography with variable aperture and advanced image processing. The 5000mAh battery supports 90W fast charging and 50W wireless charging. With a premium leather-like design, IP68 water resistance, and MIUI software enhancements, it's a powerhouse for mobile photography and performance."
                 },
                 {
-                    "id": 2
+                    "id": 8,
+                    "url_name": "redmi-note-12-pro",
+                    "name": "Redmi Note 12 Pro",
+                    "image": "https://imgs.search.brave.com/AHyTuGSmm3_rV_eFAEoJ51-RzrpptLzU0IXWaCObZ70/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZm9uZWFyZW5h/LmNvbS9ibG9nL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIyLzEy/L1JlZG1pLU5vdGUt/MTItUHJvLmpwZw",
+                    "price": "₹16,999",
+                    "processor": "MediaTek Dimensity 1080",
+                    "display": "6.67-inch AMOLED, 120Hz",
+                    "camera": "50MP primary, 8MP ultra-wide, 2MP macro",
+                    "battery": "5000mAh with 67W fast charging",
+                    "description": "The Redmi Note 12 Pro is a feature-packed mid-range smartphone with a 6.67-inch AMOLED display, 120Hz refresh rate, and Dolby Vision support for a smooth and vibrant viewing experience. Powered by the MediaTek Dimensity 1080 processor, it delivers efficient performance for daily tasks and gaming. The 50MP Sony IMX766 main camera with OIS ensures sharp and detailed photos, even in low light. It packs a 5000mAh battery with 67W fast charging, providing long-lasting power. With a premium glass design, stereo speakers, and 5G connectivity, the Redmi Note 12 Pro offers great value for its price."
                 },
                 {
-                    "id": 3
+                    "id": 9,
+                    "url_name": "poco-x5-pro",
+                    "name": "Poco X5 Pro",
+                    "image": "https://imgs.search.brave.com/ehWL-IHEmiT7RjidH_KA9Y48hisMagHhgdeqlIutzHQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4x/LnNtYXJ0cHJpeC5j/b20vcngtaUhaSm04/N3FaLXc0MjAtaDQy/MC9wb2NvLXg1LXBy/by53ZWJw",
+                    "price": "₹17,000",
+                    "processor": "Qualcomm Snapdragon 778G",
+                    "display": "6.67-inch AMOLED, 120Hz",
+                    "camera": "108MP primary, 8MP ultra-wide, 2MP macro",
+                    "battery": "5000mAh with 67W fast charging",
+                    "description": "The Poco X5 Pro is a powerful mid-range smartphone featuring a 6.67-inch AMOLED display with a 120Hz refresh rate and Dolby Vision support for an immersive viewing experience. Powered by the Snapdragon 778G processor, it delivers smooth performance for gaming and multitasking. The 108MP triple-camera system captures detailed and vibrant photos, while the 5000mAh battery with 67W fast charging ensures all-day usage. With stereo speakers, 5G connectivity, and MIUI for Poco, the Poco X5 Pro is a great choice for users looking for performance, photography, and entertainment at an affordable price."
                 }
             ],
 
             "realme": [
                 {
-                    "id": 1
+                    "id": 10,
+                    "url_name": "gt-3",
+                    "name": "Realme GT 3",
+                    "image": "https://fdn2.gsmarena.com/vv/pics/realme/realme-gt-neo5-1.jpg",
+                    "price": "₹45,000",
+                    "processor": "Qualcomm Snapdragon 8+ Gen 1",
+                    "display": "6.74-inch AMOLED, 120Hz",
+                    "camera": "50MP primary, 8MP ultra-wide, 2MP macro",
+                    "battery": "4600mAh with 150W fast charging",
+                    "description": "The Realme GT 3 is a performance-focused flagship smartphone featuring a 6.74-inch AMOLED display with a 144Hz refresh rate for ultra-smooth visuals. Powered by the Snapdragon 8+ Gen 1 processor, it delivers top-tier gaming and multitasking performance. The 50MP Sony IMX890 main camera with OIS ensures high-quality photos, while the standout feature is its 240W ultra-fast charging, capable of fully charging the 4600mAh battery in under 10 minutes. With a customizable RGB lighting system, stereo speakers, and Realme UI optimizations, the Realme GT 3 is designed for speed, power, and a premium user experience."
                 },
                 {
-                    "id": 2
+                    "id": 11,
+                    "url_name": "11-pro-plus",
+                    "name": "Realme 11 Pro+",
+                    "image": "https://imgs.search.brave.com/o4b3kuxjlEo5fdwTMx5nHx7ITGvMdEtfl5nxGbvEpRM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFRSmpaN0ZrTEwu/anBn",
+                    "price": "₹24,999",
+                    "processor": "MediaTek Dimensity 7050",
+                    "display": "6.7-inch AMOLED, 120Hz",
+                    "camera": "200MP primary, 8MP ultra-wide, 2MP macro",
+                    "battery": "5000mAh with 100W fast charging",
+                    "description": "The Realme 11 Pro+ is a premium mid-range smartphone featuring a 6.7-inch curved AMOLED display with a 120Hz refresh rate for an immersive visual experience. Powered by the MediaTek Dimensity 7050 processor, it ensures smooth performance for daily tasks and gaming. The highlight of the device is its 200MP main camera with OIS, offering ultra-detailed and high-quality photography. It packs a 5000mAh battery with 100W fast charging, ensuring quick power-ups. With a premium vegan leather design, stereo speakers, and Realme UI enhancements, the Realme 11 Pro+ is a stylish and powerful choice for photography lovers and multimedia enthusiasts."
                 },
                 {
-                    "id": 3
+                    "id": 12,
+                    "url_name": "narzo-50-pro",
+                    "name": "Realme Narzo 50 Pro",
+                    "image": "https://imgs.search.brave.com/MV5aC1GunIctxQ0WwEkGq8vBN4JMhJSQzSVCXMYkOxc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mZG4y/LmdzbWFyZW5hLmNv/bS92di9waWNzL3Jl/YWxtZS9yZWFsbWUt/bmFyem8tNTAtcHJv/LTVnLTEuanBn",
+                    "price": "₹20,000",
+                    "processor": "MediaTek Dimensity 920",
+                    "display": "6.4-inch AMOLED, 90Hz",
+                    "camera": "48MP primary, 8MP ultra-wide, 2MP macro",
+                    "battery": "5000mAh with 33W fast charging",
+                    "description": "The Realme Narzo 50 Pro is a performance-focused mid-range smartphone featuring a 6.4-inch Super AMOLED display with a 90Hz refresh rate for smooth visuals and vibrant colors. Powered by the MediaTek Dimensity 920 processor, it delivers efficient performance for gaming and multitasking. The 48MP triple-camera system ensures sharp and detailed photos, while the 5000mAh battery with 33W fast charging provides long-lasting power. With stereo speakers, 5G connectivity, and Realme UI optimizations, the Narzo 50 Pro is a solid choice for users looking for a balance of performance, display quality, and battery life"
                 }
             ]
         },
@@ -78,49 +162,162 @@
         {
             "apple": [
                 {
-                    "id": 1
+                    "id": 13,
+                    "url_name": "macbook-pro-m3-max",
+                    "name": "MacBook Pro 16-inch (M3 Max)",
+                    "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1698821675/Croma%20Assets/Computers%20Peripherals/Laptop/Images/302735_yoe3hs.png",
+                    "price": "₹3,29,999",
+                    "processor": "Apple M3 Max (16-core CPU, 40-core GPU)",
+                    "display": "16.2-inch Liquid Retina XDR",
+                    "RAM": "Up to 128GB Unified Memory",
+                    "storage": "Up to 8TB SSD",
+                    "description": "The MacBook Pro 16-inch (M3 Max) is Apple's most powerful laptop, designed for professionals who need top-tier performance. It features a 16.2-inch Liquid Retina XDR display with ProMotion (120Hz refresh rate) for stunning visuals. Powered by the M3 Max chip, it delivers exceptional speed for demanding tasks like video editing, 3D rendering, and software development. With up to 128GB of unified memory and 8TB SSD storage, it handles heavy workflows with ease. The 22-hour battery life, studio-quality speakers, MagSafe charging, and a full suite of ports (HDMI, SD card, Thunderbolt 4) make it the ultimate laptop for power users and creatives."
                 },
                 {
-                    "id": 2
+                    "id": 14,
+                    "url_name": "macbook-air-m2",
+                    "name": "MacBook Air 15-inch (M2)",
+                    "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mba15-midnight-select-202306?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1684518479433",
+                    "price": "₹1,20,000",
+                    "processor": "Apple M2 chip",
+                    "display": "15.3-inch Liquid Retina",
+                    "RAM": "8GB Unified Memory",
+                    "storage": "256GB/512GB SSD",
+                    "description": "The MacBook Air 15-inch (M2) is a sleek and lightweight laptop designed for portability and performance. It features a 15.3-inch Liquid Retina display with True Tone for vibrant and sharp visuals. Powered by the Apple M2 chip, it delivers smooth performance for everyday tasks, creative work, and multitasking. With up to 24GB of unified memory and 2TB SSD storage, it ensures fast and efficient operation. The fanless design keeps it silent, while the 18-hour battery life provides all-day usage. With MagSafe charging, Touch ID, and a six-speaker sound system, the MacBook Air 15-inch (M2) is perfect for students, professionals, and those who want power in a thin and stylish form factor."
                 },
                 {
-                    "id": 3
+                    "id": 15,
+                    "url_name": "macbook-pro-14-m2-pro",
+                    "name": "MacBook Pro 14-inch (M2 Pro)",
+                    "image": "https://imgs.search.brave.com/5zpfpWOyj28memWN7N8GDrizp-_I5bqtm6hFyiByshI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YmhwaG90b3ZpZGVv/LmNvbS9jZG4tY2dp/L2ltYWdlL2Zvcm1h/dD1hdXRvLGZpdD1z/Y2FsZS1kb3duLHdp/ZHRoPTUwMCxxdWFs/aXR5PTk1L2h0dHBz/Oi8vd3d3LmJocGhv/dG92aWRlby5jb20v/aW1hZ2VzL2ltYWdl/czUwMHg1MDAvYXBw/bGVfbXBoZTNsbF9h/XzE0X21hY2Jvb2tf/cHJvX3dpdGhfMTY3/Mzk2NTg3MF8xNzQ2/MzUxLmpwZw",
+                    "price": "₹1,29,900",
+                    "processor": "Apple M2 Pro (10-core CPU, 16-core GPU)",
+                    "display": "14.2-inch Liquid Retina XDR",
+                    "RAM": "Up to 32GB Unified Memory",
+                    "storage": "Up to 2TB SSD",
+                    "description": "The MacBook Pro 14-inch (M2 Pro) is a powerful and compact laptop designed for professionals who need high performance in a portable form. It features a 14.2-inch Liquid Retina XDR display with ProMotion (120Hz refresh rate) for stunning visuals. Powered by the Apple M2 Pro chip, it delivers exceptional speed for demanding tasks like video editing, coding, and graphic design. With up to 32GB of unified memory and 8TB SSD storage, it handles intensive workflows with ease. The 18-hour battery life, studio-quality speakers, MagSafe charging, and a variety of ports (HDMI, SD card, Thunderbolt 4) make it a versatile and powerful choice for creatives and professionals on the go."
                 }
             ],
 
             "asus": [
                 {
-                    "id": 1
-                },
-                {
-                    "id": 2
-                },
-                {
-                    "id": 3
-                }
+                    "id": 16,
+                    "url_name": "rog-zephyrus-g16",
+                    "name": "Asus ROG Zephyrus G16",
+                    "image": "https://rukminim2.flixcart.com/image/750/900/xif0q/computer/m/z/j/-original-imah2ges8ed8eyne.jpeg?q=20&crop=false",
+                    "price": "₹1,75,000",
+                    "processor": "Intel Core i9-13900H",
+                    "display": "16-inch Mini LED, 240Hz",
+                    "GPU": "NVIDIA RTX 4070",
+                    "RAM": "32GB DDR5",
+                    "storage": "1TB NVMe SSD",
+                    "description": "The Asus ROG Zephyrus G16 is a high-performance gaming laptop designed for gamers and creators. It features a 16-inch QHD+ (or FHD+) Nebula Display with a 165Hz refresh rate and 100% DCI-P3 color accuracy for immersive visuals. Powered by up to an Intel Core i9 processor and NVIDIA GeForce RTX 40-series GPU, it delivers top-tier gaming and creative performance. With up to 32GB DDR5 RAM and 2TB PCIe SSD storage, it ensures fast multitasking and load times. The sleek, lightweight design, MUX Switch with Advanced Optimus, Dolby Atmos speakers, and per-key RGB keyboard make it a premium choice for those who want power in a stylish and portable package."
+                  },
+                  {
+                    "id": 17,
+                    "url_name": "vivobook-pro-15-oled",
+                    "name": "Asus Vivobook Pro 15 OLED",
+                    "image": "https://m.media-amazon.com/images/I/61+K3ReiEtL._AC_UF1000,1000_QL80_.jpg",
+                    "price": "₹89,000",
+                    "processor": "AMD Ryzen 9 7940HS",
+                    "display": "15.6-inch OLED, 120Hz",
+                    "GPU": "NVIDIA RTX 3050",
+                    "RAM": "16GB DDR5",
+                    "storage": "512GB SSD",
+                    "description": "The Asus Vivobook Pro 15 OLED is a powerful and stylish laptop designed for creators and professionals. It features a 15.6-inch 2.8K OLED display with a 120Hz refresh rate, 100% DCI-P3 color gamut, and VESA DisplayHDR True Black 600 certification, delivering stunning visuals with deep blacks and vibrant colors. Powered by up to an AMD Ryzen 9 or Intel Core i9 processor and NVIDIA GeForce RTX 3050/4050 GPU, it offers strong performance for content creation and multitasking. With up to 16GB RAM and 1TB PCIe SSD storage, it ensures fast and smooth operation. The harmon/kardon speakers, ergonomic keyboard, and long battery life make it an excellent choice for those seeking power and creativity in a sleek, portable design."
+                  },
+                  {
+                    "id": 18,
+                    "url_name": "tuf-gaming-f15",
+                    "name": "Asus TUF Gaming F15",
+                    "image": "https://rukminim2.flixcart.com/image/750/900/xif0q/computer/u/n/j/fx506lhb-hn355w-fx506lh-hn258w-gaming-laptop-asus-original-imah2uwqwypuyy5k.jpeg?q=20&crop=false",
+                    "price": "₹93,000",
+                    "processor": "Intel Core i7-12700H",
+                    "display": "15.6-inch FHD, 144Hz",
+                    "GPU": "NVIDIA RTX 3060",
+                    "RAM": "16GB DDR4",
+                    "storage": "512GB SSD",
+                    "description": "The Asus TUF Gaming F15 is a rugged and high-performance gaming laptop built for durability and power. It features a 15.6-inch IPS display with up to a 144Hz or 300Hz refresh rate, ensuring smooth gameplay. Powered by up to an Intel Core i7 (13th Gen) processor and NVIDIA GeForce RTX 40-series GPU, it delivers excellent gaming and multitasking performance. With up to 32GB DDR5 RAM and 1TB PCIe SSD storage, it ensures fast load times and responsiveness. The military-grade durability (MIL-STD-810H), RGB-backlit keyboard, improved cooling system, and long-lasting 90Wh battery make it a great choice for gamers who need performance, reliability, and affordability."
+                  }
             ],
 
             "dell": [
                 {
-                    "id": 1
+                    "id": 19,
+                    "url_name": "xps-15-2024",
+                    "name": "Dell XPS 15 (2024)",
+                    "image": "https://m.media-amazon.com/images/I/71ZeMXgYXcL.jpg",
+                    "price": "₹2,10,000",
+                    "processor": "Intel Core i9-13900H",
+                    "display": "15.6-inch OLED, 3.5K resolution",
+                    "RAM": "32GB DDR5",
+                    "storage": "1TB NVMe SSD",
+                    "description": "The Dell XPS 15 (2024) is a premium laptop designed for professionals and creators, offering a blend of performance and elegance. It features a 15.6-inch display with options for FHD+ (1920 x 1200) non-touch or 3.5K OLED touch panels, delivering vibrant visuals and sharp details. Powered by up to a 13th Generation Intel® Core™ i9-13900H processor, it ensures robust performance for demanding tasks. Graphics options include NVIDIA® GeForce RTX™ 4050, 4060, or 4070 Laptop GPUs, catering to various creative and professional needs. Memory configurations range up to 64GB DDR5 4800 MHz, and storage options go up to 4TB M.2 PCIe NVMe SSD, providing ample space and speed for data-intensive applications. The laptop maintains a sleek design with a starting weight of approximately 1.8 kg (4 lbs), making it portable without compromising on build quality. Connectivity features include multiple USB-C ports, an SD card slot, and a 3.5mm headphone jack, ensuring versatility for various peripherals. Overall, the Dell XPS 15 (2024) combines cutting-edge technology with a sophisticated design, making it a top choice for users seeking performance and style."
                 },
                 {
-                    "id": 2
+                    "id": 20,
+                    "url_name": "alienware-m16",
+                    "name": "Dell Alienware M16",
+                    "image": "https://m.media-amazon.com/images/I/71umPsBixQL.jpg",
+                    "price": "₹2,10,000",
+                    "processor": "AMD Ryzen 9 7945HX",
+                    "display": "16-inch QHD+, 165Hz",
+                    "GPU": "NVIDIA RTX 4080",
+                    "RAM": "32GB DDR5",
+                    "storage": "2TB SSD",
+                    "description": "The Dell Alienware M16 is a high-performance gaming laptop designed for enthusiasts seeking top-tier performance and immersive visuals. It features a 16-inch display. nder the hood, it's powered by up to a 13th Generation Intel® Core™ i9-13900HX processor (36 MB cache, 24 cores, up to 5.40 GHz) and offers graphics options up to NVIDIA® GeForce RTX™ 4090 with 16 GB GDDR6. Memory configurations range up to 64 GB DDR5 5600 MHz XMP, and storage options include up to a 4 TB M.2 PCIe NVMe SSD. The laptop's dimensions are 363.90 mm (width) x 289.90 mm (depth) x 23.10 mm (front height) / 23 mm (rear height), with a maximum weight of 3.25 kg (7.17 lbs)"
                 },
                 {
-                    "id": 3
+                    "id": 21,
+                    "url_name": "inspiron-14-plus",
+                    "name": "Dell Inspiron 14 Plus",
+                    "image": "https://www.jiomart.com/images/product/original/494421571/dell-inspiron-14-plus-7440-notebook-laptop-intel-core-i5-13420h-16-gb-512-gb-ssd-integrated-windows-11-msoffice-full-hd-35-56-cm-14-inch-ice-blue-digital-o494421571-p609962345-0-202409131811.jpeg?im=Resize=(1000,1000)",
+                    "price": "₹97,000",
+                    "processor": "Intel Core i7-1360P",
+                    "display": "14-inch 2.2K resolution",
+                    "RAM": "16GB DDR5",
+                    "storage": "512GB SSD",
+                    "description": "Dell Inspiron 14 Plus – A powerful and portable 14-inch laptop with 2.2K or 2.8K display options, Intel Core Ultra processors, Intel Arc graphics, up to 32GB RAM, and 1TB SSD. It features a sleek design, backlit keyboard, Thunderbolt 4 ports, and Wi-Fi 7 support, making it ideal for productivity and entertainment."
                 }
             ],
 
             "hp": [
                 {
-                    "id": 1
+                    "id": 22,
+                    "url_name": "spectre-x360-16",
+                    "name": "HP Spectre x360 16",
+                    "image": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/2/3/23c2_spectre_herbie_16_nightfall_black_t_9mp_ir_cam_nonfpr_avicii_2b_win11_core_set_tent_whitebg_touch_evoultra_1.png",
+                    "price": "₹1,50,000",
+                    "processor": "Intel Core i7-13700H",
+                    "display": "16-inch OLED, 3K resolution",
+                    "RAM": "16GB LPDDR5",
+                    "storage": "1TB SSD",
+                    "description": "The HP Spectre x360 16 is a premium 2-in-1 convertible laptop designed for versatility and performance. It features a 16-inch OLED touch display with up to a 2.8K resolution, delivering vibrant visuals. Powered by up to an Intel® Core™ Ultra 7 155H processor and equipped with Intel® Arc™ Graphics or an optional NVIDIA® GeForce RTX™ 4050 Laptop GPU, it offers robust performance for both creative and professional tasks. The laptop supports up to 32 GB of LPDDR5X RAM and offers storage options up to 2 TB PCIe® NVMe™ M.2 SSD. Its adaptive 2-in-1 design, combined with built-in AI technology, makes it a versatile choice for users seeking a blend of functionality and style. "
                 },
                 {
-                    "id": 2
+                    "id": 23,
+                    "url_name": "omen-17",
+                    "name": "HP Omen 17",
+                    "image": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c07580118_1_3.png",
+                    "price": "₹1,30,000",
+                    "processor": "Intel Core i9-13900HX",
+                    "display": "17.3-inch QHD, 165Hz",
+                    "GPU": "NVIDIA RTX 4090",
+                    "RAM": "32GB DDR5",
+                    "storage": "2TB SSD",
+                    "description": "The HP Omen 17 is a high-performance gaming laptop designed for enthusiasts seeking desktop-level power in a portable form factor. It features a 17.3-inch display with options for QHD (2560 x 1440) resolution at a 240Hz refresh rate, ensuring smooth and immersive visuals. Under the hood, it offers configurations with up to a 13th Generation Intel® Core™ i9-13900HX processor, delivering robust performance for demanding games and applications. Graphics are powered by up to an NVIDIA® GeForce RTX™ 4070 Laptop GPU with 8 GB GDDR6 dedicated memory, providing exceptional frame rates and ray-tracing capabilities. The laptop supports up to 32 GB DDR5-5600 MHz RAM, facilitating seamless multitasking and efficient handling of resource-intensive tasks. For storage, it offers up to a 2 TB PCIe® NVMe™ TLC M.2 SSD, ensuring rapid load times and ample space for games and media. The HP Omen 17 also includes advanced cooling solutions to maintain optimal performance during extended gaming sessions, and it comes equipped with a variety of ports to support a wide range of peripherals. This combination of features makes the HP Omen 17 a compelling choice for gamers and power users seeking a versatile and powerful laptop. "
                 },
                 {
-                    "id": 3
+                    "id": 24,
+                    "url_name": "pavilion-14",
+                    "name": "HP Pavilion 14",
+                    "image": "https://in-media.apjonlinecdn.com/catalog/product/c/0/c07991100_1.png",
+                    "price": "₹80,000",
+                    "processor": "AMD Ryzen 7 7730U",
+                    "display": "14-inch FHD IPS",
+                    "RAM": "16GB DDR4",
+                    "storage": "512GB SSD",
+                    "description": "The HP Pavilion 14 is a versatile laptop designed for everyday use, offering a balance of performance and portability. It features a 14-inch display with options for FHD (1920 x 1080) resolution, providing clear and vibrant visuals. Powered by up to a 13th Generation Intel® Core™ i7 processor, it ensures smooth multitasking and efficient performance for daily tasks. The laptop supports up to 16 GB DDR4 RAM and offers storage options up to 1 TB PCIe® NVMe™ M.2 SSD, providing ample space and quick access to your files and applications. For connectivity, it includes multiple USB ports, an HDMI port, and a headphone/microphone combo jack, accommodating various peripherals and accessories. With its sleek design and reliable performance, the HP Pavilion 14 is suitable for both students and professionals seeking a dependable laptop for work and entertainment."
                 }
             ]
         },
@@ -129,37 +326,143 @@
         {
             "apple": [
                 {
-                    "id": 1
+                    "id": 25,
+                    "name": "Apple Watch Ultra 2",
+                    "price": "₹90,000",
+                    "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/49-cell-titanium-black-trail-loop-black-ultra_GEO_IN?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1725035568602",
+                    "processor": "Apple S9 SiP",
+                    "display": "1.92-inch Always-On Retina OLED",
+                    "battery": "Up to 36 hours",
+                    "features": ["Dual-frequency GPS", "100m water resistance"],
+                    "description": ""
                 },
                 {
-                    "id": 2
+                    "id": 26,
+                    "name": "Apple Watch Series 9",
+                    "price": "₹40,900",
+                    "image": "https://m.media-amazon.com/images/I/61T4-3BedZL._AC_UF1000,1000_QL80_.jpg",
+                    "processor": "Apple S9 SiP",
+                    "display": "1.9-inch Always-On Retina OLED",
+                    "battery": "Up to 18 hours",
+                    "features": ["Blood oxygen", "ECG", "Temperature sensing"],
+                    "description": ""
                 },
                 {
-                    "id": 3
+                    "id": 27,
+                    "name": "Apple Watch SE (2nd Gen)",
+                    "price": "₹20,000",
+                    "image": "https://rukminim2.flixcart.com/image/850/1000/kfeamq80/smartwatch/h/b/7/ios-mydt2hn-a-apple-original-imafvveww6aqhydb.jpeg?q=20&crop=false",
+                    "processor": "Apple S8 SiP",
+                    "display": "1.78-inch Retina OLED",
+                    "battery": "Up to 18 hours",
+                    "features": ["Heart rate monitoring", "Fall detection"],
+                    "description": ""
                 }
             ],
-
+            
             "samsung": [
                 {
-                    "id": 1
+                    "id": 28,
+                    "name": "Samsung Galaxy Watch 6 Classic",
+                    "price": "₹43,999",
+                    "image": "https://m.media-amazon.com/images/I/51zBhMSh0uL._AC_UF1000,1000_QL80_.jpg",
+                    "processor": "Exynos W930",
+                    "display": "1.5-inch Super AMOLED",
+                    "battery": "425mAh, wireless charging",
+                    "features": ["ECG", "Blood pressure monitoring", "GPS"],
+                    "description": ""
                 },
                 {
-                    "id": 2
+                    "id": 29,
+                    "name": "Samsung Galaxy Watch 5 Pro",
+                    "price": "₹49,999",
+                    "image": "https://rukminim2.flixcart.com/image/750/900/xif0q/smartwatch/g/7/l/-original-imagh932jrkynahy.jpeg?q=20&crop=false",
+                    "processor": "Exynos W920",
+                    "display": "1.4-inch Super AMOLED",
+                    "battery": "590mAh, wireless charging",
+                    "features": ["Sleep tracking", "Body composition analysis"],
+                    "description": ""
                 },
                 {
-                    "id": 3
+                    "id": 30,
+                    "name": "Samsung Galaxy Watch 4",
+                    "price": "₹32,000",
+                    "image": "https://rukminim2.flixcart.com/image/850/1000/ksxjs7k0/smartwatch/s/g/x/android-sm-r875fzkainu-samsung-yes-original-imag6dthwtevempm.jpeg?q=90&crop=false",
+                    "processor": "Exynos W920",
+                    "display": "1.4-inch Super AMOLED",
+                    "battery": "361mAh, wireless charging",
+                    "features": ["ECG", "SpO2 monitoring", "WearOS"],
+                    "description": ""
                 }
             ],
-
-            "xiomi": [
+            
+            "xiaomi": [
                 {
-                    "id": 1
+                    "id": 31,
+                    "name": "Xiaomi Watch S1 Pro",
+                    "price": "₹12,999",
+                    "image": "https://www.91-cdn.com/hub/wp-content/uploads/2025/02/OnePlus-Watch-3.jpg",
+                    "processor": "Proprietary chipset",
+                    "display": "1.47-inch AMOLED",
+                    "battery": "500mAh, up to 14 days",
+                    "features": ["Heart rate tracking", "SpO2", "GPS"],
+                    "description": ""
                 },
                 {
-                    "id": 2
+                    "id": 32,
+                    "name": "Xiaomi Mi Watch",
+                    "price": "₹40,999",
+                    "image": "https://images-cdn.ubuy.co.in/6441bc69fd6f8d728b5efce4-xiaomi-mi-watch-1-39-amoled-hd.jpg",
+                    "processor": "Proprietary chipset",
+                    "display": "1.39-inch AMOLED",
+                    "battery": "420mAh, up to 16 days",
+                    "features": ["117 sports modes", "SpO2 monitoring"],
+                    "description": ""
                 },
                 {
-                    "id": 3
+                    "id": 33,
+                    "name": "Xiaomi Redmi Watch 3",
+                    "price": "₹2,599",
+                    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTzxzDAp3ooe9DB1JD-ctkKrSab2DjlVOilaYmez9DsfOrcVKOMLcu6O2M0cglgW7cb6bVihOBSYZZudI_HTSiafYrrw1jcAo8Vvc23WGv0caR-1T5Mt8QK",
+                    "processor": "Proprietary chipset",
+                    "display": "1.75-inch AMOLED",
+                    "battery": "289mAh, up to 12 days",
+                    "features": ["Sleep tracking", "GPS", "Water resistance"],
+                    "description": ""
+                }
+            ],
+            
+            "fastrack": [
+                {
+                    "id": 34,
+                    "name": "Fastrack Limitless FS1",
+                    "display": "1.95-inch Horizon Curve with 500 nits brightness",
+                    "image": "https://m.media-amazon.com/images/I/71wRh+9yqrL.jpg",
+                    "price": "₹1,999",
+                    "processor": "Next-gen ATS chipset",
+                    "battery": "Up to 10 days",
+                    "features": ["Built-in Alexa", "SingleSync Bluetooth calling", "100+ sports modes", "Continuous stress monitoring", "Auto sleep tracking", "24/7 heart rate monitoring"],
+                    "description": ""
+                },
+                {
+                    "id": 35,
+                    "name": "Fastrack Reflex Beat+",
+                    "image": "https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw2fa58224/images/Fastrack/Catalog/38082PP01_1.jpg?sw=600&sh=600",
+                    "price": "₹1,799",
+                    "display": "1.69-inch UltraVu with 500 nits brightness",
+                    "battery": "Up to 5 days",
+                    "features": ["60+ sports modes", "Health suite including SpO2 monitor", "Heart rate and sleep tracking", "IP68 water and dust resistance", "100+ watch faces"],
+                    "description": ""
+                },
+                {
+                    "id": 36,
+                    "name": "Fastrack Reflex Vox",
+                    "image": "https://m.media-amazon.com/images/I/51jW-Ou29bL.jpg",
+                    "price": "₹4,999",
+                    "display": "1.69-inch HD rectangular",
+                    "battery": "Up to 10 days",
+                    "features": ["Built-in Amazon Alexa", "Multi-sports modes", "Heart rate monitor", "SpO2 monitor", "Sleep tracker", "Activity tracker", "Stress monitor", "Menstrual cycle tracker", "100+ watch faces"],
+                    "description": ""
                 }
             ]
         },
@@ -168,49 +471,145 @@
         {
             "apple": [
                 {
-                    "id": 1
+                    "id": 37,
+                    "name": "Apple AirPods Pro 2",
+                    "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-pro-2-hero-select-202409?wid=976&hei=916&fmt=jpeg&qlt=90&.v=1724041669458",
+                    "price": "₹25,000",
+                    "type": "True wireless earbuds with ANC",
+                    "battery": { "earbuds": "6 hours", "case": "30 hours" },
+                    "chip": "Apple H2",
+                    "features": ["Adaptive transparency", "Spatial audio"],
+                    "description": ""
                 },
                 {
-                    "id": 2
+                    "id": 38,
+                    "name": "Apple AirPods Max",
+                    "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-hero-select-202409?wid=976&hei=916&fmt=jpeg&qlt=90&.v=1725492700483",
+                    "price": "₹60,000",
+                    "type": "Over-ear headphones with ANC",
+                    "battery": "20 hours",
+                    "chip": "Apple H1",
+                    "features": ["Spatial audio", "Digital crown for volume control"],
+                    "description": ""
                 },
                 {
-                    "id": 3
+                    "id": 39,
+                    "name": "Apple AirPods 3rd Gen",
+                    "image": "https://inventstore.in/wp-content/uploads/2023/05/MME73.webp",
+                    "price": "₹20,000",
+                    "type": "True wireless earbuds",
+                    "battery": { "earbuds": "6 hours", "case": "30 hours" },
+                    "chip": "Apple H1",
+                    "features": ["Spatial audio", "Sweat and water resistance"],
+                    "description": ""
                 }
             ],
 
             "oneplus": [
                 {
-                    "id": 1
+                    "id": 40,
+                    "name": "OnePlus Buds Pro 2",
+                    "image": "https://image01-in.oneplus.net/india-oneplus-statics-file/epb/202307/07/kDu3h4CRKX2V1P49.png?x-amz-process=image/format,webp/quality,Q_80",
+                    "price": "₹11,999",
+                    "type": "True wireless earbuds with ANC",
+                    "battery": { "earbuds": "9 hours", "case": "39 hours" },
+                    "codec": ["LHDC 4.0", "AAC", "SBC"],
+                    "features": ["Spatial audio", "Adaptive noise cancellation"],
+                    "description": ""
                 },
                 {
-                    "id": 2
+                    "id": 41,
+                    "name": "OnePlus Nord Buds 2",
+                    "image": "https://image01-in.oneplus.net/ebp/202404/28/1-M00-52-A7-CpgM7WYuF52AI8oUAAK7YVYiXxU615.png?x-amz-process=image/format,webp/quality,Q_80",
+                    "price": "₹2,699",
+                    "type": "True wireless earbuds",
+                    "battery": { "earbuds": "7 hours", "case": "36 hours" },
+                    "codec": ["AAC", "SBC"],
+                    "features": ["AI noise reduction for calls"],
+                    "description": ""
                 },
                 {
-                    "id": 3
+                    "id": 42,
+                    "name": "OnePlus Buds Z2",
+                    "image": "https://m.media-amazon.com/images/I/61PSwxcN8wL.jpg",
+                    "price": "₹5,300",
+                    "type": "True wireless earbuds with ANC",
+                    "battery": { "earbuds": "5 hours", "case": "38 hours" },
+                    "codec": ["AAC", "SBC"],
+                    "features": ["Dolby Atmos support"],
+                    "description": ""
                 }
             ],
 
             "boat": [
                 {
-                    "id": 1
+                    "id": 43,
+                    "name": "Boat Airdopes 441 Pro",
+                    "image": "https://www.boat-lifestyle.com/cdn/shop/products/218997d1-3fe9-4a19-809c-94a8a2d05273_600x.png?v=1625045659",
+                    "price": "₹999",
+                    "type": "True wireless earbuds",
+                    "battery": { "earbuds": "5 hours", "case": "150 hours" },
+                    "codec": ["AAC", "SBC"],
+                    "features": ["IPX7 water resistance", "Touch controls"],
+                    "description": ""
                 },
                 {
-                    "id": 2
+                    "id": 44,
+                    "name": "Boat Rockerz 450",
+                    "image": "https://www.boat-lifestyle.com/cdn/shop/products/7499af44-9d7a-489c-80f0-51f7799289e4_600x.png?v=1673002682",
+                    "price": "₹1,899",
+                    "type": "On-ear Bluetooth headphones",
+                    "battery": "15 hours",
+                    "connectivity": "Bluetooth 5.0",
+                    "features": ["Dual pairing", "Adjustable ear cups"],
+                    "description": ""
                 },
                 {
-                    "id": 3
+                    "id": 45,
+                    "name": "Boat Nirvanaa 751 ANC",
+                    "image": "https://m.media-amazon.com/images/I/71ISIssoVFL._SX466_.jpg",
+                    "price": "₹3,900",
+                    "type": "Over-ear noise-canceling headphones",
+                    "battery": "65 hours",
+                    "connectivity": ["Bluetooth 5.0", "AUX"],
+                    "features": ["Hybrid ANC", "Fast charging"],
+                    "description": ""
                 }
             ],
-            
+
             "sony": [
                 {
-                    "id": 1
+                    "id": 46,
+                    "name": "Sony WH-1000XM5",
+                    "image": "https://m.media-amazon.com/images/I/61ULAZmt9NL.jpg",
+                    "price": "₹34,999",
+                    "type": "Over-ear noise-canceling headphones",
+                    "battery": "30 hours",
+                    "connectivity": ["Bluetooth 5.2", "LDAC", "AAC", "SBC"],
+                    "features": ["Adaptive noise cancellation", "Touch controls"],
+                    "description": ""
                 },
                 {
-                    "id": 2
+                    "id": 47,
+                    "name": "Sony WF-1000XM4",
+                    "image": "https://m.media-amazon.com/images/I/511Iyl1Eg0L.jpg",
+                    "price": "₹16,999",
+                    "type": "True wireless earbuds with ANC",
+                    "battery": { "earbuds": "8 hours", "case": "24 hours" },
+                    "codec": ["LDAC", "AAC", "SBC"],
+                    "features": ["Speak-to-chat", "Wireless charging"],
+                    "description": ""
                 },
                 {
-                    "id": 3
+                    "id": 48,
+                    "name": "Sony WH-CH720N",
+                    "image": "https://m.media-amazon.com/images/I/51rpbVmi9XL.jpg",
+                    "price": "₹14,999",
+                    "type": "Over-ear noise-canceling headphones",
+                    "battery": "35 hours",
+                    "connectivity": "Bluetooth 5.2",
+                    "features": ["Lightweight design", "Adjustable EQ"],
+                    "description": ""
                 }
             ]
         }
