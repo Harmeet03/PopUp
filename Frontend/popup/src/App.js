@@ -41,7 +41,10 @@ import XiaomiWatches from './Components/Watches/Xiaomi'
 import FastrackPhones from './Components/Watches/Fastrack'
 
 // Watches Details
-
+import AppleWatchDetail from './Components/Watches/AppleDetail'
+import SamsungWatchDetail from './Components/Watches/SamsungDetail'
+import XiaomiWatchDetail from './Components/Watches/XiaomiDetail'
+import FastrackWatchDetail from './Components/Watches/FastrackDetail'
 
 // Headphones Lists
 import AppleHeadphones from './Components/Headphones/Apple'
@@ -50,7 +53,10 @@ import BoatHeadphones from './Components/Headphones/Boat'
 import SonyHeadphones from './Components/Headphones/Sony'
 
 // Headphones Details
-
+import AppleHeadphonesDetail from './Components/Headphones/AppleDetail'
+import OnePlusHeadphonesDetail from './Components/Headphones/OnePlusDetail'
+import BoatHeadphonesDetail from './Components/Headphones/BoatDetail'
+import SonyHeadphonesDetail from './Components/Headphones/SonyDetail'
 
 function App() {
   return (
@@ -96,7 +102,10 @@ function App() {
         <Route path='/product-category/watches/fastrack' element= {<FastrackPhones/>}/>
 
         {/* Watches Details */}
-
+        <Route path='/product/watch/apple/:url_name' element={<AppleWatchDetail/>}/>
+        <Route path='/product/watch/samsung/:url_name' element={<SamsungWatchDetail/>}/>
+        <Route path='/product/watch/xiaomi/:url_name' element={<XiaomiWatchDetail/>}/>
+        <Route path='/product/watch/fastrack/:url_name' element={<FastrackWatchDetail/>}/>
 
         {/* Headphones Lists */}
         <Route path='/product-category/headphones/apple' element= {<AppleHeadphones/>}/>
@@ -105,7 +114,10 @@ function App() {
         <Route path='/product-category/headphones/sony' element= {<SonyHeadphones/>}/>
 
         {/* Headphones Details */}
-
+        <Route path='/product/headphone/apple/:url_name' element={<AppleHeadphonesDetail/>}/>
+        <Route path='/product/headphone/oneplus/:url_name' element={<OnePlusHeadphonesDetail/>}/>
+        <Route path='/product/headphone/boat/:url_name' element={<BoatHeadphonesDetail/>}/>
+        <Route path='/product/headphone/sony/:url_name' element={<SonyHeadphonesDetail/>}/>
 
       </Routes>
     </BrowserRouter>

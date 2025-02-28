@@ -327,142 +327,155 @@
             "apple": [
                 {
                     "id": 25,
+                    "url_name": "ultra-2",
                     "name": "Apple Watch Ultra 2",
                     "price": "₹90,000",
                     "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/49-cell-titanium-black-trail-loop-black-ultra_GEO_IN?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1725035568602",
                     "processor": "Apple S9 SiP",
                     "display": "1.92-inch Always-On Retina OLED",
                     "battery": "Up to 36 hours",
-                    "features": ["Dual-frequency GPS", "100m water resistance"],
-                    "description": ""
+                    "features": ["Dual-frequency GPS, ", "100m water resistance"],
+                    "description": "The Apple Watch Ultra 2 is Apple's most advanced and rugged smartwatch, designed for athletes, adventurers, and outdoor enthusiasts. It features a 49mm titanium case, a brighter Always-On Retina display (up to 3,000 nits), and precision dual-frequency GPS for accurate location tracking. It is powered by the S9 SiP chip, which enhances performance and enables features like Double Tap gesture. The watch is water-resistant up to 100 meters, supports depth and dive tracking, and has up to 36 hours of battery life (72 hours in low-power mode). It runs watchOS 10, offering enhanced health tracking, safety features, and seamless integration with Apple's ecosystem."
                 },
                 {
                     "id": 26,
+                    "url_name": "series-9",
                     "name": "Apple Watch Series 9",
                     "price": "₹40,900",
                     "image": "https://m.media-amazon.com/images/I/61T4-3BedZL._AC_UF1000,1000_QL80_.jpg",
                     "processor": "Apple S9 SiP",
                     "display": "1.9-inch Always-On Retina OLED",
                     "battery": "Up to 18 hours",
-                    "features": ["Blood oxygen", "ECG", "Temperature sensing"],
-                    "description": ""
+                    "features": ["Blood oxygen, ", "ECG, ", "Temperature sensing"],
+                    "description": "The Apple Watch Series 9 is a powerful and feature-rich smartwatch designed for everyday use, fitness tracking, and health monitoring. It is powered by the S9 SiP chip, which improves performance, enables the Double Tap gesture, and enhances on-device Siri capabilities. The watch features a brighter Always-On Retina display (up to 2,000 nits) for better visibility in sunlight."
                 },
                 {
                     "id": 27,
+                    "url_name": "se-2nd-gen",
                     "name": "Apple Watch SE (2nd Gen)",
                     "price": "₹20,000",
                     "image": "https://rukminim2.flixcart.com/image/850/1000/kfeamq80/smartwatch/h/b/7/ios-mydt2hn-a-apple-original-imafvveww6aqhydb.jpeg?q=20&crop=false",
                     "processor": "Apple S8 SiP",
                     "display": "1.78-inch Retina OLED",
                     "battery": "Up to 18 hours",
-                    "features": ["Heart rate monitoring", "Fall detection"],
-                    "description": ""
+                    "features": ["Heart rate monitoring, ", "Fall detection"],
+                    "description": "The Apple Watch SE (2nd Gen) is a budget-friendly yet powerful smartwatch that offers essential Apple Watch features at a lower price. It is powered by the S8 SiP chip, making it 20% faster than the previous SE model. It comes in 40mm and 44mm sizes with an aluminum case and a Retina display (though it lacks an Always-On mode)"
                 }
             ],
             
             "samsung": [
                 {
                     "id": 28,
+                    "url_name": "galaxy-watch-6-classic",
                     "name": "Samsung Galaxy Watch 6 Classic",
                     "price": "₹43,999",
                     "image": "https://m.media-amazon.com/images/I/51zBhMSh0uL._AC_UF1000,1000_QL80_.jpg",
                     "processor": "Exynos W930",
                     "display": "1.5-inch Super AMOLED",
                     "battery": "425mAh, wireless charging",
-                    "features": ["ECG", "Blood pressure monitoring", "GPS"],
-                    "description": ""
+                    "features": ["ECG, ", "Blood pressure monitoring, ", "GPS"],
+                    "description": "The Samsung Galaxy Watch 6 Classic is a premium smartwatch that combines a classic rotating bezel with powerful health and fitness features. It features a stainless steel case, a bright Super AMOLED display, and runs on Wear OS powered by Samsung with One UI Watch for seamless integration with Samsung devices."
                 },
                 {
                     "id": 29,
+                    "url_name": "galaxy-watch-5-pro",
                     "name": "Samsung Galaxy Watch 5 Pro",
                     "price": "₹49,999",
                     "image": "https://rukminim2.flixcart.com/image/750/900/xif0q/smartwatch/g/7/l/-original-imagh932jrkynahy.jpeg?q=20&crop=false",
                     "processor": "Exynos W920",
                     "display": "1.4-inch Super AMOLED",
                     "battery": "590mAh, wireless charging",
-                    "features": ["Sleep tracking", "Body composition analysis"],
-                    "description": ""
+                    "features": ["Sleep tracking, ", "Body composition analysis"],
+                    "description": "The Samsung Galaxy Watch 5 Pro is a premium smartwatch designed for outdoor enthusiasts and fitness lovers. It features a durable titanium case, a sapphire crystal display, and an extended battery life compared to standard smartwatches. Running on Wear OS powered by Samsung, it offers seamless integration with Android devices."
                 },
                 {
                     "id": 30,
+                    "url_name": "galaxy-watch-4",
                     "name": "Samsung Galaxy Watch 4",
                     "price": "₹32,000",
                     "image": "https://rukminim2.flixcart.com/image/850/1000/ksxjs7k0/smartwatch/s/g/x/android-sm-r875fzkainu-samsung-yes-original-imag6dthwtevempm.jpeg?q=90&crop=false",
                     "processor": "Exynos W920",
                     "display": "1.4-inch Super AMOLED",
                     "battery": "361mAh, wireless charging",
-                    "features": ["ECG", "SpO2 monitoring", "WearOS"],
-                    "description": ""
+                    "features": ["ECG, ", "SpO2 monitoring, ", "WearOS"],
+                    "description": "The Samsung Galaxy Watch 4 is a feature-packed smartwatch that blends fitness tracking, smart connectivity, and a sleek design. It was the first Galaxy Watch to run Wear OS powered by Samsung, offering seamless integration with Google services and Samsung’s ecosystem."
                 }
             ],
             
             "xiaomi": [
                 {
                     "id": 31,
+                    "url_name": "watch-s1-pro",
                     "name": "Xiaomi Watch S1 Pro",
                     "price": "₹12,999",
-                    "image": "https://www.91-cdn.com/hub/wp-content/uploads/2025/02/OnePlus-Watch-3.jpg",
+                    "image": "https://img.myipadbox.com/sec/product_l/SYA002118503B.jpg",
                     "processor": "Proprietary chipset",
                     "display": "1.47-inch AMOLED",
                     "battery": "500mAh, up to 14 days",
-                    "features": ["Heart rate tracking", "SpO2", "GPS"],
-                    "description": ""
+                    "features": ["Heart rate tracking, ", "SpO2, ", "GPS"],
+                    "description": "The Xiaomi Watch S1 Pro is a premium smartwatch that combines a classic design with modern smart features. It features a stainless steel case, a sapphire crystal display, and a rotating crown for easy navigation. Designed for both fitness enthusiasts and professionals, it runs on Xiaomi’s MIUI Watch OS and offers long battery life."
                 },
                 {
                     "id": 32,
+                    "url_name": "mi-watch",
                     "name": "Xiaomi Mi Watch",
                     "price": "₹40,999",
                     "image": "https://images-cdn.ubuy.co.in/6441bc69fd6f8d728b5efce4-xiaomi-mi-watch-1-39-amoled-hd.jpg",
                     "processor": "Proprietary chipset",
                     "display": "1.39-inch AMOLED",
                     "battery": "420mAh, up to 16 days",
-                    "features": ["117 sports modes", "SpO2 monitoring"],
-                    "description": ""
+                    "features": ["117 sports modes, ", "SpO2 monitoring"],
+                    "description": "The Xiaomi Mi Watch is a lightweight and affordable smartwatch that offers essential smart features, fitness tracking, and a long battery life. It features a 1.39-inch AMOLED display, a durable plastic case, and a comfortable silicone strap. Running on Xiaomi’s custom OS, it provides a smooth experience with various health and fitness functionalities."
                 },
                 {
                     "id": 33,
+                    "url_name": "redmi-watch-3",
                     "name": "Xiaomi Redmi Watch 3",
                     "price": "₹2,599",
                     "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTzxzDAp3ooe9DB1JD-ctkKrSab2DjlVOilaYmez9DsfOrcVKOMLcu6O2M0cglgW7cb6bVihOBSYZZudI_HTSiafYrrw1jcAo8Vvc23WGv0caR-1T5Mt8QK",
                     "processor": "Proprietary chipset",
                     "display": "1.75-inch AMOLED",
                     "battery": "289mAh, up to 12 days",
-                    "features": ["Sleep tracking", "GPS", "Water resistance"],
-                    "description": ""
+                    "features": ["Sleep tracking, ", "GPS, ", "Water resistance"],
+                    "description": "The Xiaomi Redmi Watch 3 is a budget-friendly smartwatch with a stylish design, a large AMOLED display, and essential health and fitness tracking features. It is designed for users who want a lightweight, feature-rich smartwatch at an affordable price."
                 }
             ],
             
             "fastrack": [
                 {
                     "id": 34,
+                    "url_name": "limitless-fs1",
                     "name": "Fastrack Limitless FS1",
                     "display": "1.95-inch Horizon Curve with 500 nits brightness",
                     "image": "https://m.media-amazon.com/images/I/71wRh+9yqrL.jpg",
                     "price": "₹1,999",
                     "processor": "Next-gen ATS chipset",
                     "battery": "Up to 10 days",
-                    "features": ["Built-in Alexa", "SingleSync Bluetooth calling", "100+ sports modes", "Continuous stress monitoring", "Auto sleep tracking", "24/7 heart rate monitoring"],
-                    "description": ""
+                    "features": ["Built-in Alexa, ", "SingleSync Bluetooth calling, ", "100+ sports modes, ", "Continuous stress monitoring, ", "Auto sleep tracking, ", "24/7 heart rate monitoring"],
+                    "description": "The Fastrack Limitless FS1 is a budget-friendly smartwatch that offers a sleek design, a large display, and essential smart features. It is designed for users who want a stylish yet affordable smartwatch with fitness tracking and Bluetooth calling."
                 },
                 {
                     "id": 35,
+                    "url_name": "reflex-beat-plus",
                     "name": "Fastrack Reflex Beat+",
                     "image": "https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw2fa58224/images/Fastrack/Catalog/38082PP01_1.jpg?sw=600&sh=600",
                     "price": "₹1,799",
                     "display": "1.69-inch UltraVu with 500 nits brightness",
                     "battery": "Up to 5 days",
-                    "features": ["60+ sports modes", "Health suite including SpO2 monitor", "Heart rate and sleep tracking", "IP68 water and dust resistance", "100+ watch faces"],
-                    "description": ""
+                    "features": ["60+ sports modes, ", "Health suite including SpO2 monitor, ", "Heart rate and sleep tracking, ", "IP68 water and dust resistance, ", "100+ watch faces"],
+                    "description": "The Fastrack Reflex Beat+ is an affordable and stylish fitness smartwatch designed for users who want essential health tracking and smart features in a budget-friendly package. It offers a sleek design, lightweight build, and a vibrant display for everyday use."
                 },
                 {
                     "id": 36,
+                    "url_name": "reflex-vox",
                     "name": "Fastrack Reflex Vox",
                     "image": "https://m.media-amazon.com/images/I/51jW-Ou29bL.jpg",
                     "price": "₹4,999",
+                    "processor": "Next-gen RTL chipset from Realtek",
                     "display": "1.69-inch HD rectangular",
                     "battery": "Up to 10 days",
-                    "features": ["Built-in Amazon Alexa", "Multi-sports modes", "Heart rate monitor", "SpO2 monitor", "Sleep tracker", "Activity tracker", "Stress monitor", "Menstrual cycle tracker", "100+ watch faces"],
-                    "description": ""
+                    "features": ["Built-in Amazon Alexa, ", "Multi-sports modes, ", "Heart rate monitor, ", "SpO2 monitor, ", "Sleep tracker, ", "Activity tracker, ", "Stress monitor, ", "Menstrual cycle tracker, ", "100+ watch faces"],
+                    "description": "The Fastrack Reflex Vox is a feature-rich budget smartwatch designed for users who want a stylish watch with smart functionalities and fitness tracking. It has a lightweight design, a large display, and a built-in Alexa voice assistant for added convenience."
                 }
             ]
         },
@@ -472,144 +485,156 @@
             "apple": [
                 {
                     "id": 37,
+                    "url_name": "aipods-pro-2",
                     "name": "Apple AirPods Pro 2",
                     "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-pro-2-hero-select-202409?wid=976&hei=916&fmt=jpeg&qlt=90&.v=1724041669458",
                     "price": "₹25,000",
                     "type": "True wireless earbuds with ANC",
-                    "battery": { "earbuds": "6 hours", "case": "30 hours" },
+                    "battery":  "30 hours",
                     "chip": "Apple H2",
-                    "features": ["Adaptive transparency", "Spatial audio"],
-                    "description": ""
+                    "features": ["Adaptive transparency, ", "Spatial audio"],
+                    "description": "The Apple AirPods Pro (2nd Generation) is a premium true wireless earbud with the H2 chip, offering improved Active Noise Cancellation (ANC), Adaptive Transparency, and Spatial Audio. It features touch controls for volume adjustment, up to 6 hours of battery life (30 hours with the case), and an IP54 rating for sweat and water resistance. The MagSafe charging case includes a U1 chip for Precision Finding via Find My. Available in Lightning and USB-C versions, it delivers an enhanced audio experience with Bluetooth 5.3 connectivity."
                 },
                 {
                     "id": 38,
+                    "url_name": "airpods-max",
                     "name": "Apple AirPods Max",
                     "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-hero-select-202409?wid=976&hei=916&fmt=jpeg&qlt=90&.v=1725492700483",
                     "price": "₹60,000",
                     "type": "Over-ear headphones with ANC",
                     "battery": "20 hours",
                     "chip": "Apple H1",
-                    "features": ["Spatial audio", "Digital crown for volume control"],
-                    "description": ""
+                    "features": ["Spatial audio, ", "Digital crown for volume control"],
+                    "description": "The Apple AirPods Max is a premium over-ear wireless headphone designed for high-fidelity audio and immersive listening. Powered by Apple's H1 chip in each ear cup, it features Active Noise Cancellation (ANC) for blocking external noise, along with Transparency Mode for situational awareness. The headphones support Spatial Audio with dynamic head tracking, delivering a theater-like sound experience. Built with aluminum ear cups, memory foam cushions, and a stainless steel frame, the AirPods Max offers both durability and comfort. It provides up to 20 hours of battery life with ANC and Spatial Audio enabled and charges via a Lightning port. The Digital Crown allows precise volume and playback control, while Bluetooth 5.0 ensures a seamless connection with Apple devices. With its premium build, exceptional sound quality, and intelligent features, the AirPods Max is a top-tier choice for audiophiles and Apple ecosystem users. "
                 },
                 {
                     "id": 39,
+                    "url_name": "airpods-3",
                     "name": "Apple AirPods 3rd Gen",
                     "image": "https://inventstore.in/wp-content/uploads/2023/05/MME73.webp",
                     "price": "₹20,000",
                     "type": "True wireless earbuds",
-                    "battery": { "earbuds": "6 hours", "case": "30 hours" },
+                    "battery": "30 hours",
                     "chip": "Apple H1",
-                    "features": ["Spatial audio", "Sweat and water resistance"],
-                    "description": ""
+                    "features": ["Spatial audio, ", "Sweat and water resistance"],
+                    "description": "The Apple AirPods (3rd Generation) is a mid-range true wireless earbud with an improved design and better audio performance. It features Spatial Audio with dynamic head tracking for an immersive experience. The H1 chip enables seamless device switching and hands-free 'Hey Siri' support. The earbuds have a force sensor for touch controls, making it easy to manage playback. They offer Adaptive EQ that automatically adjusts sound based on ear shape. With up to 6 hours of battery life (30 hours with the case), they support MagSafe, wireless, and Lightning charging. The IPX4 rating makes them sweat and water-resistant, making them great for workouts."
                 }
             ],
 
             "oneplus": [
                 {
                     "id": 40,
+                    "url_name": "buds-pro-2",
                     "name": "OnePlus Buds Pro 2",
                     "image": "https://image01-in.oneplus.net/india-oneplus-statics-file/epb/202307/07/kDu3h4CRKX2V1P49.png?x-amz-process=image/format,webp/quality,Q_80",
                     "price": "₹11,999",
                     "type": "True wireless earbuds with ANC",
-                    "battery": { "earbuds": "9 hours", "case": "39 hours" },
-                    "codec": ["LHDC 4.0", "AAC", "SBC"],
-                    "features": ["Spatial audio", "Adaptive noise cancellation"],
-                    "description": ""
+                    "battery": "39 hours",
+                    "codec": ["LHDC 4.0, ", "AAC, ", "SBC"],
+                    "features": ["Spatial audio, ", "Adaptive noise cancellation"],
+                    "description": "The OnePlus Buds Pro 2 is a premium true wireless earbud with adaptive noise cancellation (ANC) up to 48dB for an immersive sound experience. It features dual dynamic drivers (11mm + 6mm), co-tuned with Dynaudio, for rich audio. With Bluetooth 5.3, Spatial Audio, and LHDC 4.0 codec, it offers high-resolution streaming. Battery life lasts up to 9 hours (39 hours with the case), and it supports fast & wireless charging. The earbuds are IP55 water-resistant, making them ideal for workouts."
                 },
                 {
                     "id": 41,
+                    "url_name": "nord-buds-2",
                     "name": "OnePlus Nord Buds 2",
                     "image": "https://image01-in.oneplus.net/ebp/202404/28/1-M00-52-A7-CpgM7WYuF52AI8oUAAK7YVYiXxU615.png?x-amz-process=image/format,webp/quality,Q_80",
                     "price": "₹2,699",
                     "type": "True wireless earbuds",
-                    "battery": { "earbuds": "7 hours", "case": "36 hours" },
-                    "codec": ["AAC", "SBC"],
+                    "battery": "36 hours",
+                    "codec": ["AAC, ", "SBC"],
                     "features": ["AI noise reduction for calls"],
-                    "description": ""
+                    "description": "The OnePlus Nord Buds 2 is a budget-friendly TWS earbud with ANC up to 25dB for decent noise reduction. It has 12.4mm dynamic drivers for powerful bass and BassWave technology for enhanced sound. With Bluetooth 5.3 and low latency mode, it ensures stable connections. Battery life lasts up to 7 hours (36 hours with the case), and fast charging provides 5 hours of playtime in 10 minutes. The earbuds are IP55-rated, making them sweat and water-resistant."
                 },
                 {
                     "id": 42,
+                    "url_name": "buds-z2",
                     "name": "OnePlus Buds Z2",
                     "image": "https://m.media-amazon.com/images/I/61PSwxcN8wL.jpg",
                     "price": "₹5,300",
                     "type": "True wireless earbuds with ANC",
-                    "battery": { "earbuds": "5 hours", "case": "38 hours" },
-                    "codec": ["AAC", "SBC"],
+                    "battery": "38 hours",
+                    "codec": ["AAC, ", "SBC"],
                     "features": ["Dolby Atmos support"],
-                    "description": ""
+                    "description": "The OnePlus Buds Z2 is a mid-range true wireless earbud with 40dB active noise cancellation (ANC) for immersive sound. It features 11mm dynamic drivers for deep bass and rich audio. With Bluetooth 5.2, it offers stable connectivity and 94ms low latency for gaming. Battery life is up to 7 hours (38 hours with the case), and Warp Charge provides 5 hours of playtime in 10 minutes. It is IP55 water-resistant, making it great for workouts."
                 }
             ],
 
             "boat": [
                 {
                     "id": 43,
+                    "url_name": "airdopes-441-pro",
                     "name": "Boat Airdopes 441 Pro",
                     "image": "https://www.boat-lifestyle.com/cdn/shop/products/218997d1-3fe9-4a19-809c-94a8a2d05273_600x.png?v=1625045659",
                     "price": "₹999",
                     "type": "True wireless earbuds",
-                    "battery": { "earbuds": "5 hours", "case": "150 hours" },
-                    "codec": ["AAC", "SBC"],
-                    "features": ["IPX7 water resistance", "Touch controls"],
-                    "description": ""
+                    "battery": "150 hours",
+                    "codec": ["AAC, ", "SBC"],
+                    "features": ["IPX7 water resistance, ", "Touch controls"],
+                    "description": "The Boat Airdopes 441 Pro is a budget TWS earbud with 6mm dynamic drivers for decent bass and clear sound. It features Bluetooth 5.0 for a stable connection and IWP (Instant Wake & Pair) technology for quick pairing. With up to 5 hours of battery life per charge and an additional 150 hours with the case, it offers long-lasting performance. The earbuds are IPX7 water-resistant, making them suitable for workouts and outdoor use."
                 },
                 {
                     "id": 44,
+                    "url_name": "rockerz-450",
                     "name": "Boat Rockerz 450",
                     "image": "https://www.boat-lifestyle.com/cdn/shop/products/7499af44-9d7a-489c-80f0-51f7799289e4_600x.png?v=1673002682",
                     "price": "₹1,899",
                     "type": "On-ear Bluetooth headphones",
                     "battery": "15 hours",
                     "connectivity": "Bluetooth 5.0",
-                    "features": ["Dual pairing", "Adjustable ear cups"],
-                    "description": ""
+                    "features": ["Dual pairing, ", "Adjustable ear cups"],
+                    "description": "The Boat Rockerz 450 is an affordable on-ear Bluetooth headphone with 40mm dynamic drivers for punchy bass and clear audio. It features Bluetooth 5.0 for a stable connection and dual-mode support (wired & wireless) for flexibility. Battery life is up to 15 hours, and it supports fast charging via a Type-C port. The lightweight design with soft ear cushions ensures comfort during long listening sessions."
                 },
                 {
                     "id": 45,
-                    "name": "Boat Nirvanaa 751 ANC",
+                    "url_name": "nirvana-751-anc",
+                    "name": "Boat Nirvana 751 ANC",
                     "image": "https://m.media-amazon.com/images/I/71ISIssoVFL._SX466_.jpg",
                     "price": "₹3,900",
                     "type": "Over-ear noise-canceling headphones",
                     "battery": "65 hours",
-                    "connectivity": ["Bluetooth 5.0", "AUX"],
-                    "features": ["Hybrid ANC", "Fast charging"],
-                    "description": ""
+                    "connectivity": ["Bluetooth 5.0, ", "AUX"],
+                    "features": ["Hybrid ANC, ", "Fast charging"],
+                    "description": "The Boat Nirvana 751 ANC is an over-ear wireless headphone with Hybrid ANC (up to 33dB) for noise-free listening. It has 40mm drivers that deliver deep bass and immersive sound. With Bluetooth 5.0 and AUX mode, it offers flexible connectivity. Battery life lasts up to 65 hours (54 hours with ANC on), and it supports fast charging, providing 10 hours of playback in 10 minutes. The comfortable ear cushions make it ideal for long use."
                 }
             ],
 
             "sony": [
                 {
                     "id": 46,
+                    "url_name": "wh-1000xm5",
                     "name": "Sony WH-1000XM5",
                     "image": "https://m.media-amazon.com/images/I/61ULAZmt9NL.jpg",
                     "price": "₹34,999",
                     "type": "Over-ear noise-canceling headphones",
                     "battery": "30 hours",
-                    "connectivity": ["Bluetooth 5.2", "LDAC", "AAC", "SBC"],
-                    "features": ["Adaptive noise cancellation", "Touch controls"],
-                    "description": ""
+                    "connectivity": ["Bluetooth 5.2, ", "LDAC, ", "AAC, ", "SBC"],
+                    "features": ["Adaptive noise cancellation, ", "Touch controls"],
+                    "description": "The Sony WH-1000XM5 is a premium over-ear noise-canceling headphone with industry-leading ANC powered by two processors and 8 microphones. It features 30mm drivers for clear, balanced sound and LDAC support for high-resolution audio. With Bluetooth 5.2 and multipoint connectivity, it ensures seamless pairing across devices. Battery life is up to 30 hours, and quick charging provides 3 hours of playtime in 3 minutes. The lightweight design and plush ear cushions offer exceptional comfort."
                 },
                 {
                     "id": 47,
+                    "url_name": "wf-1000xm4",
                     "name": "Sony WF-1000XM4",
                     "image": "https://m.media-amazon.com/images/I/511Iyl1Eg0L.jpg",
                     "price": "₹16,999",
                     "type": "True wireless earbuds with ANC",
-                    "battery": { "earbuds": "8 hours", "case": "24 hours" },
-                    "codec": ["LDAC", "AAC", "SBC"],
-                    "features": ["Speak-to-chat", "Wireless charging"],
-                    "description": ""
+                    "battery": "24 hours",
+                    "codec": ["LDAC, ", "AAC, ", "SBC"],
+                    "features": ["Speak-to-chat, ", "Wireless charging"],
+                    "description": "The Sony WF-1000XM4 is a high-end true wireless earbud with Sony’s V1 chip for superior ANC and audio processing. It features 6mm drivers, LDAC support, and DSEE Extreme upscaling for premium sound. With Bluetooth 5.2, it offers stable connectivity and Speak-to-Chat for automatic pausing. Battery life is 8 hours per charge (24 hours with the case), and Qi wireless charging is supported. The IPX4 water resistance makes it great for workouts."
                 },
                 {
                     "id": 48,
+                    "url_name": "wh-ch720n",
                     "name": "Sony WH-CH720N",
                     "image": "https://m.media-amazon.com/images/I/51rpbVmi9XL.jpg",
                     "price": "₹14,999",
                     "type": "Over-ear noise-canceling headphones",
                     "battery": "35 hours",
                     "connectivity": "Bluetooth 5.2",
-                    "features": ["Lightweight design", "Adjustable EQ"],
-                    "description": ""
+                    "features": ["Lightweight design, ", "Adjustable EQ"],
+                    "description": "The Sony WH-CH720N is a mid-range over-ear headphone with Active Noise Cancellation (ANC) powered by the Sony V1 processor. It has 30mm dynamic drivers for well-balanced audio and Bluetooth 5.2 for stable connectivity. Battery life is up to 35 hours with ANC on and supports quick charging (3 hours of playback in 3 minutes). The lightweight design and soft ear cushions provide long-lasting comfort."
                 }
             ]
         }
