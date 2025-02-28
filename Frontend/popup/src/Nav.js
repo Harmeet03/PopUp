@@ -52,12 +52,12 @@ const Nav = () => {
 
             <nav style={{background: 'black', color: 'white', display: 'flex', justifyContent: 'space-around', alignItems: 'center', padding: '10px 0px'}}>
                 <div className="logo">
-                    <img src={Logo} width={'150px'}/>
+                    <img onClick={() => {To('/home')}} style={{cursor: 'pointer'}} src={Logo} width={'150px'}/>
                 </div>
                 <div className="links" style={{display: 'flex', gap: '20px'}}>
                     <p onClick={toggleTheme} style={{cursor: 'pointer'}} className='material-icons'> brightness_6 </p>
-                    <p onClick={() => {To('/')}} style={{cursor: 'pointer'}} className='material-icons'> add_shopping_cart </p>
-                    <p onClick={() => {To('/')}} style={{cursor: 'pointer'}} className='material-icons'> person </p>
+                    <p onClick={() => {To('/bag')}} style={{cursor: 'pointer'}} className='material-icons'> add_shopping_cart </p>
+                    <p onClick={() => {To('/account/sign-in')}} style={{cursor: 'pointer'}} className='material-icons'> person </p>
                 </div>
             </nav>
         </>
