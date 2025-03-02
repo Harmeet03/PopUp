@@ -58,6 +58,13 @@ import OnePlusHeadphonesDetail from './Components/Headphones/OnePlusDetail'
 import BoatHeadphonesDetail from './Components/Headphones/BoatDetail'
 import SonyHeadphonesDetail from './Components/Headphones/SonyDetail'
 
+// SIGN IN & SIGN UP
+import SignIn from './Account/SignIn'
+import SignUp from './Account/SignUp'
+
+// ADD TO BAG
+import Bag from './Bag'
+
 function App() {
   return (
     <BrowserRouter>
@@ -118,6 +125,14 @@ function App() {
         <Route path='/product/headphone/oneplus/:url_name' element={<OnePlusHeadphonesDetail/>}/>
         <Route path='/product/headphone/boat/:url_name' element={<BoatHeadphonesDetail/>}/>
         <Route path='/product/headphone/sony/:url_name' element={<SonyHeadphonesDetail/>}/>
+
+        {/* Sign In & Sign Up */}
+        <Route path='/account/sign-in' element={<SignIn/>}/>
+        <Route path='/account/sign-up' element={<SignUp/>}/>
+
+        {/* Add To Bag */}
+        <Route path='/shop/bag' element={<Bag/>}/>
+
 
       </Routes>
     </BrowserRouter>

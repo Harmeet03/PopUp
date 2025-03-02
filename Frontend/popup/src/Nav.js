@@ -23,17 +23,26 @@ const Nav = () => {
     const applyTheme = () => {
         let body = document.querySelector('body');
         let loading = document.querySelector('.loading');
+        let inputs = document.querySelectorAll('input');
 
         const lightTheme = () => {
             body.style.backgroundColor = 'rgb(245,244,246)';
             body.style.color = 'black'
             if (loading) loading.style.color = 'black'
+            if (inputs) inputs.forEach(input => {
+                input.style.color = 'black'
+                input.style.borderColor = 'black'
+            })
         }
         
         const darkTheme = () => {
             body.style.backgroundColor = 'rgb(1,0,1)';
             body.style.color = 'white'
             if (loading) loading.style.color = 'white'
+            if (inputs) inputs.forEach(input => {
+                input.style.color = 'white'
+                input.style.borderColor = 'white'
+            })
         }
         
         let savedTheme = localStorage.getItem('Theme')
@@ -56,7 +65,7 @@ const Nav = () => {
                 </div>
                 <div className="links" style={{display: 'flex', gap: '20px'}}>
                     <p onClick={toggleTheme} style={{cursor: 'pointer'}} className='material-icons'> brightness_6 </p>
-                    <p onClick={() => {To('/bag')}} style={{cursor: 'pointer'}} className='material-icons'> add_shopping_cart </p>
+                    <p onClick={() => {To('/shop/bag')}} style={{cursor: 'pointer'}} className='material-icons'> add_shopping_cart </p>
                     <p onClick={() => {To('/account/sign-in')}} style={{cursor: 'pointer'}} className='material-icons'> person </p>
                 </div>
             </nav>

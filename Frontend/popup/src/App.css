@@ -55,4 +55,65 @@ button{
   font-size: 16px;
   border-radius: 20px;
   width: 500px;
+  cursor: pointer;
+}
+
+/* SIGN IN & SIGN UP CSS */
+.signin{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 20px;
+  margin: auto;
+}
+
+.signin > h1{
+  font-size: 20px;
+}
+
+.signin > input{
+  padding: 20px 20px;
+  width: 250px;
+  margin: auto;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid black;
+  outline: none;
+}
+
+.signin > button{
+  margin: auto;
+  width: 100px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* ADD TO BAG CSS */
+.bag{
+  margin: auto;
+  width: 1000px;
+  padding: 50px 200px;
+}
+
+.bag > .list{
+  display: flex;
+  flex-direction: row;
+  padding: 75px 0px;
+}
+
+.bag > h1{
+  font-size: 40px;
+}
+
+.bag > .list > .left{
+  height: 200px;
+  width: 200px;
+}
+
+.bag > .list > .right{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap: 350px;
 }

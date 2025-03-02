@@ -60,10 +60,11 @@ const SonyHeadphonesDetail = () => {
             <Nav/>
             <div className="content">
                 <div className="left">
-                    <h1> Buy {detail.name} </h1>
-                    <p> From {detail.price} </p>
+                    <h1 name='name'> Buy {detail.name} </h1>
+                    <p name='price'> From {detail.price} </p>
                     <br/><br/>
-                    <img src={detail.image} width={600} alt="Image not found"/><br/><br/>
+                    <img name='image' src={detail.image} width={600} alt="Image not found"/><br/><br/>
+                    <p  name='url_name' style={{display: 'none'}}> {detail.url_name} </p>
                 </div>
                 <div className="right">
                     <p> {detail.description} </p>
