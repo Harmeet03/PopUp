@@ -13,6 +13,7 @@ const AppleHeadphonesDetail = () => {
     useEffect(() => {
         fetchDetail()
     }, [])
+
     
     const fetchDetail = async () => {
         try{
@@ -55,12 +56,45 @@ const AppleHeadphonesDetail = () => {
         )
     }
 
+    const addToBag = async (e) => {
+        e.preventDefault()
+        try{
+            const resp = await fetch('http://localhost:5000/bag-list', {
+                method: 'POST',
+                mode: 'cors',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: detail.name, 
+                    price: detail.price, 
+                    image: detail.image, 
+                    category: detail.category,
+                    company: detail.company,
+                    url_name: detail.url_name
+                })
+            })
+
+            if(resp.ok){
+                console.log('Added to Bag');
+            }
+            
+            else{
+                console.log('Failed to Add');
+            }
+        }
+        catch(e){
+            console.error('Internal Server Error: ', e);
+        }
+    }
+
     return(
         <>
             <Nav/>
             <div className="content">
                 <div className="left">
-                    <h1 name='name'> Buy {detail.name} </h1>
+                    <h1 name='product_name'> Buy {detail.name} </h1>
                     <p name='price'> From {detail.price} </p>
                     <br/><br/>
                     <img name='image' src={detail.image} width={600} alt="Image not found"/><br/><br/>
@@ -92,7 +126,7 @@ const AppleHeadphonesDetail = () => {
                     <button> Buy Now </button>
                     <br/>
                     <br/>
-                    <button> Add to Bag </button>
+                    <button onClick={addToBag}> Add to Bag </button>
                 </div>
             </div>
             <Footer/>

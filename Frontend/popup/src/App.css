@@ -99,7 +99,7 @@ button{
 .bag > .list{
   display: flex;
   flex-direction: row;
-  padding: 75px 0px;
+  padding: 75px 0px 10px 0px;
 }
 
 .bag > h1{

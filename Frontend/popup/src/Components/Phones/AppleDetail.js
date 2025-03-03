@@ -60,7 +60,7 @@ const IphoneDetail = () => {
             <Nav/>
             <div className="content">
                 <div className="left">
-                    <h1 name='name'> Buy {detail.name} </h1>
+                    <h1 name='product_name'> Buy {detail.name} </h1>
                     <p name='price'> From {detail.price} </p>
                     <br/><br/>
                     <img name='image' src={detail.image} width={400} alt="Image not found"/><br/><br/>

@@ -24,11 +24,15 @@ const Nav = () => {
         let body = document.querySelector('body');
         let loading = document.querySelector('.loading');
         let inputs = document.querySelectorAll('input');
+        let lists = document.querySelectorAll('.list');
 
         const lightTheme = () => {
             body.style.backgroundColor = 'rgb(245,244,246)';
             body.style.color = 'black'
             if (loading) loading.style.color = 'black'
+            if (lists) lists.forEach(list => {
+                list.style.color = 'black'
+            })
             if (inputs) inputs.forEach(input => {
                 input.style.color = 'black'
                 input.style.borderColor = 'black'
@@ -39,6 +43,9 @@ const Nav = () => {
             body.style.backgroundColor = 'rgb(1,0,1)';
             body.style.color = 'white'
             if (loading) loading.style.color = 'white'
+            if (lists) lists.forEach(list => {
+                list.style.color = 'white'
+            })
             if (inputs) inputs.forEach(input => {
                 input.style.color = 'white'
                 input.style.borderColor = 'white'
