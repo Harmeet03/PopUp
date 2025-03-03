@@ -93,27 +93,26 @@ button{
 .bag{
   margin: auto;
   width: 1000px;
-  padding: 50px 200px;
+  padding: 50px 20px;
 }
 
 .bag > .list{
   display: flex;
   flex-direction: row;
-  padding: 75px 0px 10px 0px;
+  padding: 25px 0px 10px 0px;
+}
+
+.bag > .list > .left{
+  padding: 0px 40px;
 }
 
 .bag > h1{
   font-size: 40px;
 }
 
-.bag > .list > .left{
-  height: 200px;
-  width: 200px;
-}
-
 .bag > .list > .right{
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 200px;
   margin: auto;
-  gap: 350px;
 }

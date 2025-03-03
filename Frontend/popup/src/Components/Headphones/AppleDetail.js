@@ -55,9 +55,13 @@ const AppleHeadphonesDetail = () => {
             </>
         )
     }
-
+    
     const addToBag = async (e) => {
+        
+        const again = document.querySelector('.again')
+        const added = document.querySelector('.added')
         e.preventDefault()
+        
         try{
             const resp = await fetch('http://localhost:5000/bag-list', {
                 method: 'POST',
@@ -75,17 +79,25 @@ const AppleHeadphonesDetail = () => {
                     url_name: detail.url_name
                 })
             })
-
+            
+            
             if(resp.ok){
                 console.log('Added to Bag');
+                added.style.display = 'block'
+                again.style.display = 'none'
+                
             }
             
             else{
                 console.log('Failed to Add');
+                again.style.display = 'none'
+                again.style.display = 'block'
             }
         }
         catch(e){
             console.error('Internal Server Error: ', e);
+            again.style.display = 'none'
+            again.style.display = 'block'
         }
     }
 
@@ -127,6 +139,8 @@ const AppleHeadphonesDetail = () => {
                     <br/>
                     <br/>
                     <button onClick={addToBag}> Add to Bag </button>
+                    <p className="added" style={{color: 'green', padding: '0px 225px', display: 'none'}}> Added. </p>
+                    <p className="again" style={{color: 'red', padding: '0px 210px', display: 'none'}}> Try again. </p>
                 </div>
             </div>
             <Footer/>

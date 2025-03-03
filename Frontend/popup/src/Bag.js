@@ -63,7 +63,7 @@ const Bag = () => {
                 bag.map((item) => (
                     <Link className='list' key={item.id} style={{textDecoration: 'none'}} to={`/product/${item.category}/${item.company}/${item.url_name}`}>
                         <div className='left'>
-                            <img src={item.image} width={200}/>
+                            <img src={item.image} width={200} height={200}/>
                         </div>
                         <div className='right'>
                             <h2> {item.name} </h2>
