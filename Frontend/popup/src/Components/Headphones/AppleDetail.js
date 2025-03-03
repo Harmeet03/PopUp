@@ -92,7 +92,7 @@ const AppleHeadphonesDetail = () => {
                     <button> Buy Now </button>
                     <br/>
                     <br/>
-                    <button onClick(addToCart)> Add to Bag </button>
+                    <button> Add to Bag </button>
                 </div>
             </div>
             <Footer/>
