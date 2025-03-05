@@ -2,18 +2,21 @@ import Nav from './Nav'
 import { useState, useEffect } from 'react';
 import Loading from './Loading';
 import './App.css'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Bag = () => {
+    
+    const To = useNavigate();
     const [bag, setBag] = useState([]);
     const [loading, setLoading] = useState(true);
     const [empty, setEmpty] = useState(false);
-
+    
     useEffect(() => {
         fetchBagList()
     }, []);
-
+    
     const fetchBagList = async () => {
+
         try{
             const response = await fetch(`http://localhost:5000/bag-list`);
             if(response.ok){
@@ -41,10 +44,25 @@ const Bag = () => {
     }
 
     if(empty){
+    return(
+            <>
+                <Nav/>
+                <div style={{textAlign: 'center', padding: '25vh 0px'}}>
+                    <h1 className='input'> Your bag is empty. </h1><br/>
+                    <button onClick={() => {To('/home')}} style={{color: 'blue', backgroundColor: 'transparent',border: '1px solid blue', width: '350px'}}> Continue Shopping </button>
+                </div>
+            </>
+        )
+    }
+
+    if(localStorage.getItem('Sign-in') !== 'True'){
         return(
             <>
                 <Nav/>
-                <h1 style={{textAlign: 'center', padding: '30vh 0px'}}> Bag is empty. </h1>
+                <div style={{textAlign: 'center', padding: '25vh 0px'}}>
+                    <h1 className='input'> Kindly sign in to review bag. </h1><br/>
+                    <button onClick={() => {To('/account/sign-in')}} style={{color: 'blue', backgroundColor: 'transparent',border: '1px solid blue', width: '350px'}}> Sign in </button>
+                </div>
             </>
         )
     }
@@ -57,8 +75,8 @@ const Bag = () => {
         <>
             <Nav/>
             <div className='bag'>
-                <h1> Review your bag. </h1>
-                <p> Free delivery. </p>
+                <h1 className='input'> Review your bag. </h1>
+                <p id='input'> Free delivery. </p>
             {
                 bag.map((item) => (
                     <Link className='list' key={item.id} style={{textDecoration: 'none'}} to={`/product/${item.category}/${item.company}/${item.url_name}`}>

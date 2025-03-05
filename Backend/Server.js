@@ -1,5 +1,4 @@
 // SERVER BASIC SETTING
-
 require('dotenv').config();
 const mongoose = require('mongoose');
 
@@ -85,5 +84,59 @@ app.get('/bag-list', async (req, res) => {
     }
     catch(e){
         res.status(500).json({e: 'Internal server error'});
+    }
+});
+
+// SIGN UP & SIGN IN SERVER
+const user = require('./User');
+const bcrypt = require('bcrypt');
+app.post('/sign-up', async (req, res) => {
+    try{
+        const encryption = await bcrypt.hash(req.body.password, 10)
+        const user_detail = await user.create({
+            name: req.body.name,
+            email: req.body.email,
+            password: encryption
+        });
+        res.status(200).json({ message: "Created", user_detail });
+        console.log("User Created");
+    }
+    catch(e){
+        console.error(`Error while registering user: ${e}`);
+    }
+});
+
+app.get('/sign-up', async (req, res) => {
+    try{
+        const data = await user.find({});
+        res.json(data)
+    }
+    catch(e){
+        console.error(`Unable to fetch: ${error}`);
+    }
+})
+
+app.post('/sign-in', async (req, res) => {
+    const {email, password} = req.body;
+    try{
+        const user_email = await user.findOne({email});
+        if(user_email){
+            const match = await bcrypt.compare(password, user_email.password);
+            if(match){
+                res.json({ message: "Authorized", user_email });
+                console.log('Authorized');
+            } 
+            else{
+                res.status(401).json({ message: "Unauthorized" });
+                console.log('Password Unauthorized');
+            }
+        }
+        else{
+            res.status(401).json({ message: "Unauthorized" });
+            console.log('Email Unauthorized');
+        }
+    }
+    catch(e){
+        console.error(`Unable to connect to the server: ${e}`);
     }
 });

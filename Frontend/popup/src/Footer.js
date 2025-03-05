@@ -20,19 +20,53 @@ const Footer = () => {
     }
 
     const applyTheme = () => {
-        let body = document.querySelector('body')
-        let loading = document.querySelector('.loading')
+        let body = document.querySelector('body');
+        let loading = document.querySelector('.loading');
+        let inputs = document.querySelectorAll('input');
+        let lists = document.querySelectorAll('.list');
+        let links = document.querySelectorAll('.links')
+        let footer = document.querySelector('footer');
+        let input = document.querySelector('.input');
+        let inp = document.querySelector('#input');
 
         const lightTheme = () => {
-            body.style.backgroundColor = 'rgb(245,244,246)'
-            body.style.color = 'black'
+            body.style.backgroundColor = 'rgb(245,244,246)';
+            body.style.color = 'black';
+            if(footer) footer.style.color = 'black'
+            if(footer) footer.style.backgroundColor = 'white'
+            if(input) input.style.color = 'black'
+            if(inp) inp.style.color = 'black'
             if (loading) loading.style.color = 'black'
+            if (lists) lists.forEach(list => {
+                list.style.color = 'black'
+            })
+            if (inputs) inputs.forEach(input => {
+                input.style.color = 'black'
+                input.style.borderColor = 'black'
+            })
+            if (links) links.forEach(link => {
+                link.style.color = 'black'
+            })
         }
         
         const darkTheme = () => {
-            body.style.backgroundColor = 'rgb(1,0,1)'
-            body.style.color = 'white'
+            body.style.backgroundColor = 'rgb(1,0,1)';
+            if(footer) body.style.color = 'white';
+            if(footer) footer.style.color = 'white'
+            if(footer) footer.style.backgroundColor = '#252525';
+            if(input) input.style.color = 'white'
+            if(inp) inp.style.color = 'white'
             if (loading) loading.style.color = 'white'
+            if (lists) lists.forEach(list => {
+                list.style.color = 'white'
+            })
+            if (inputs) inputs.forEach(input => {
+                input.style.color = 'white'
+                input.style.borderColor = 'white'
+            })
+            if (links) links.forEach(link => {
+                link.style.color = 'white'
+            })
         }
         
         let savedTheme = localStorage.getItem('Theme')
@@ -46,7 +80,7 @@ const Footer = () => {
 
     return(
         <>
-            <footer style={{textAlign: 'center', background: 'black', color: 'white', padding: '30px 0px 1px 0px'}}>
+            <footer style={{textAlign: 'center', background: 'white', color: 'black', padding: '30px 0px 1px 0px'}}>
                 <img src={Logo}/>
                 <h3> PopUp is E-Commerce website where we sell Electronic Devices only! </h3>
                 <h3> This is for Minor Project Purpose only. </h3>

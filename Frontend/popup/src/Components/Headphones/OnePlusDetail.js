@@ -137,7 +137,14 @@ const OnePlusHeadphonesDetail = () => {
                     <button> Buy Now </button>
                     <br/>
                     <br/>
-                    <button onClick={addToBag}> Add to Bag </button>
+                    <button onClick={(e) => {
+                        if(localStorage.getItem('Sign-in') === 'True'){
+                            addToBag(e);
+                        }
+                        else{
+                            alert('Kindly sign in.');
+                        }
+                    }}> Add to Bag </button>
                     <p className="added" style={{color: 'green', padding: '0px 225px', display: 'none'}}> Added. </p>
                     <p className="again" style={{color: 'red', padding: '0px 210px', display: 'none'}}> Try again. </p>
                 </div>
