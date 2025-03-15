@@ -10,7 +10,7 @@ const SignUp = () => {
 
     const sendData = async (e) => {
         e.preventDefault()
-        const invalid = document.querySelector('.invalid');
+        const error = document.querySelector('.error');
         try{
             const response = await fetch('http://localhost:5000/sign-up', {
                 method: 'POST',
@@ -25,16 +25,16 @@ const SignUp = () => {
             if(response.ok){
                 console.log('User created')
                 To('/sign-in')
-                invalid.style.display = 'none'
+                error.style.display = 'none'
             }
             else{
                 console.log('User not created')
-                invalid.style.display = 'block'
+                error.style.display = 'block'
             }
         }
         catch(e){
             console.log(`Server Error: ${e}`)
-            invalid.style.display = 'block'
+            error.style.display = 'block'
         }
     }
  

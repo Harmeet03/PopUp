@@ -109,7 +109,7 @@ const AppleHeadphonesDetail = () => {
                     <h1 name='product_name'> Buy {detail.name} </h1>
                     <p name='price'> From {detail.price} </p>
                     <br/><br/>
-                    <img name='image' src={detail.image} width={600} alt="Image not found"/><br/><br/>
+                    <img name='image' style={{borderRadius: '80px'}} src={detail.image} width={600} alt="Image not found"/><br/><br/>
                     <p  name='url_name' style={{display: 'none'}}> {detail.url_name} </p>
                 </div>
                 <div className="right">
