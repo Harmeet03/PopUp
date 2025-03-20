@@ -107,6 +107,10 @@ button{
   padding: 0px 40px;
 }
 
+.bag > .list > .left > img{
+  border-radius: 16px;
+}
+
 .bag > h1{
   font-size: 40px;
 }
