@@ -13,7 +13,14 @@ const IphoneDetail = () => {
     useEffect(() => {
         fetchDetail()
     }, [])
-    
+
+    useEffect(() => {
+        const script = document.createElement("script");
+        script.src = "https://checkout.razorpay.com/v1/checkout.js";
+        script.async = true;
+        document.body.appendChild(script);
+    }, []);
+
     const fetchDetail = async () => {
         try{
             const response =  await fetch("/Products.json")
@@ -100,6 +107,102 @@ const IphoneDetail = () => {
         }
     }
 
+    const handlePayment = async () => {
+        const price = parseInt(detail.price.replace(/[^0-9]/g, ""), 10);
+        const again = document.querySelector('.again')
+        try{
+            const response = await fetch(`http://localhost:5000/payment/create-order`, {
+                method: 'POST',
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    amount: price * 100,
+                    currency: 'INR',
+                    product_name: detail.name,
+                    product_category: detail.category
+                })
+            });
+
+            const order = await response.json()
+            if(response.ok){
+                console.log("User placed an order")
+                again.style.display = 'none'
+            }
+            else{
+                console.log("User unable to place an order")
+                again.style.display = 'block'
+            }
+    
+            const options = {
+                key: 'rzp_test_I5XfC1n7N89Jkk',
+                amount: order.order.amount,
+                currency: order.order.currency,
+                name: 'PopUp',
+                notes: {
+                    product_name: order.order.product_name,
+                    product_category: order.order.product_category
+                },
+                order_id: order.order.id,
+                handler: async (response) => {
+                    const verify = await fetch(`http://localhost:5000/payment/verify-payment`, {
+                        method: 'POST',
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify({
+                            razorpay_order_id: response.razorpay_order_id,
+                            razorpay_payment_id: response.razorpay_payment_id,
+                            razorpay_signature: response.razorpay_signature
+                        })
+                    });
+    
+                    const verifyData = await verify.json();
+                    
+                    if(verifyData.success){
+                        try{
+                            const response = await fetch('http://localhost:5000/orders', {
+                                method: 'POST',
+                                mode: 'cors',
+                                headers: {
+                                    'Content-Type': 'application/json',
+                                    'Accept': 'application/json'
+                                },
+                                body: JSON.stringify({ order_id: order.order.id, product_name: order.order.notes.product_name,  amount: order.order.amount / 100, product_category: order.order.notes.product_category })
+                            });
+                
+                            if(response.ok){
+                                console.log('Order details sent to database')
+                            }
+                            else{
+                                console.log('Order details failed to send to database')
+                            }
+                        }
+                        catch(e){
+                            console.log(`Server error during payment: ${e}`)
+                        }
+                        console.log('User paid for an order')
+                        alert('Payment successful!');
+                    }
+                    else{
+                        console.log("User didn't paid for an order")
+                        alert('Payment verification failed!');
+                        again.style.display = 'block'
+                    }
+                },
+                theme: {
+                    color: 'black'
+                }
+            };
+    
+            const razorpay = new window.Razorpay(options);
+            razorpay.open();
+        }
+        catch(e){
+            console.error("Error:", e);
+        }
+    }
+
     return(
         <>
             <Nav/>
@@ -120,7 +223,14 @@ const IphoneDetail = () => {
                     <h3> Camera: <i style={{fontWeight: 'lighter'}}>{detail.camera}</i> </h3>
                     <br/>
                     <br/>
-                    <button> Buy Now </button>
+                    <button onClick={() => {
+                        if(localStorage.getItem('Sign-in') === 'True'){
+                            handlePayment();
+                        }
+                        else{
+                            alert('Kindly sign in.');
+                        }
+                    }}> Buy Now </button>
                     <br/>
                     <br/>
                     <button onClick={(e) => {

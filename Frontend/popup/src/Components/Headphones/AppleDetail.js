@@ -64,7 +64,6 @@ const AppleHeadphonesDetail = () => {
     }
     
     const addToBag = async (e) => {
-        
         const again = document.querySelector('.again')
         const added = document.querySelector('.added')
         e.preventDefault()
@@ -108,12 +107,9 @@ const AppleHeadphonesDetail = () => {
         }
     }
 
-    
-
     const handlePayment = async () => {
         const price = parseInt(detail.price.replace(/[^0-9]/g, ""), 10);
         const again = document.querySelector('.again')
-
         try{
             const response = await fetch(`http://localhost:5000/payment/create-order`, {
                 method: 'POST',
@@ -129,7 +125,6 @@ const AppleHeadphonesDetail = () => {
             });
 
             const order = await response.json()
-
             if(response.ok){
                 console.log("User placed an order")
                 again.style.display = 'none'
@@ -206,7 +201,6 @@ const AppleHeadphonesDetail = () => {
         catch(e){
             console.error("Error:", e);
         }
-
     }
 
     return(
