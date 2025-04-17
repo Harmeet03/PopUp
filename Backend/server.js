@@ -92,7 +92,7 @@ app.get('/bag-list', async (req, res) => {
 
 // SIGN UP & SIGN IN SERVER
 const user = require('./User');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 app.post('/sign-up', async (req, res) => {
     try{
         const encryption = await bcrypt.hash(req.body.password, 10)
