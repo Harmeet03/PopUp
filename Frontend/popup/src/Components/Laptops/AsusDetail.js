@@ -69,7 +69,8 @@ const AsusDetail = () => {
         e.preventDefault()
         
         try{
-            const resp = await fetch('http://localhost:5000/bag-list', {
+            // const resp = await fetch('http://localhost:5000/bag-list', {
+            const resp = await fetch('https://popup-9ksu.onrender.com/bag-list', {
                 method: 'POST',
                 mode: 'cors',
                 headers: {
@@ -111,7 +112,8 @@ const AsusDetail = () => {
         const price = parseInt(detail.price.replace(/[^0-9]/g, ""), 10);
         const again = document.querySelector('.again')
         try{
-            const response = await fetch(`http://localhost:5000/payment/create-order`, {
+            // const response = await fetch(`http://localhost:5000/payment/create-order`, {
+            const response = await fetch(`https://popup-9ksu.onrender.com/payment/create-order`, {
                 method: 'POST',
                 headers: {
                     "Content-Type": "application/json"
@@ -145,7 +147,8 @@ const AsusDetail = () => {
                 },
                 order_id: order.order.id,
                 handler: async (response) => {
-                    const verify = await fetch(`http://localhost:5000/payment/verify-payment`, {
+                    // const verify = await fetch(`http://localhost:5000/payment/verify-payment`, {
+                    const verify = await fetch(`https://popup-9ksu.onrender.com/payment/verify-payment`, {
                         method: 'POST',
                         headers: {
                             "Content-Type": "application/json"
@@ -161,7 +164,8 @@ const AsusDetail = () => {
                     
                     if(verifyData.success){
                         try{
-                            const response = await fetch('http://localhost:5000/orders', {
+                            // const response = await fetch('http://localhost:5000/orders', {
+                            const response = await fetch('https://popup-9ksu.onrender.com/orders', {
                                 method: 'POST',
                                 mode: 'cors',
                                 headers: {

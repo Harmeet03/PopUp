@@ -12,7 +12,8 @@ const SignUp = () => {
         e.preventDefault()
         const error = document.querySelector('.error');
         try{
-            const response = await fetch('http://localhost:5000/sign-up', {
+            // const response = await fetch('http://localhost:5000/sign-up', {
+            const response = await fetch('https://popup-9ksu.onrender.com/sign-up', {
                 method: 'POST',
                 mode: 'cors',
                 headers: {

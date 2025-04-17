@@ -29,10 +29,20 @@ body{
   padding: 10px 0px 40px 0px;
 }
 
+@media only screen and (max-width: 1000px){
+  .category{
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+    width: 40vh;
+  }
+}
+
 /* PRODUCT DETAILS CSS */
 .content{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  width: 1500px;
 }
 
 .content > .left{ 
@@ -45,6 +55,11 @@ body{
   padding: 80px 80px;
   line-height: 40px;
   font-size: 20px;
+  margin: auto;
+}
+
+.content > .left > img{
+  border-radius: 40px;
 }
 
 button{
@@ -56,6 +71,65 @@ button{
   border-radius: 20px;
   width: 500px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1500px){
+  .content{
+    width: 1200px;
+  }
+  
+  .content > .left{ 
+    width: 435px;
+  }
+
+  .content > .left > img{
+    width: 425px;
+    height: 400px;
+  }
+  
+  .content > .right{
+    width: 435px;
+  }
+
+  button{
+    padding: 20px 40px;
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  .content{
+    grid-template-columns: repeat(1, 1fr);
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .content{
+    grid-template-columns: repeat(1, 1fr);
+    width: 400px;
+  }
+
+  .content > .left{ 
+    padding: 20px 80px;
+    width: 235px;
+    font-size: 16px;
+  }
+
+  .content > .left > img{
+    width: 230px;
+    height: 300px;
+  }
+  
+  .content > .right{
+    padding: 20px 80px;
+    width: 235px;
+  }
+
+  button{
+    padding: 20px 40px;
+    width: 225px;
+  }
 }
 
 /* SIGN IN & SIGN UP CSS */
@@ -120,4 +194,29 @@ button{
   grid-template-columns: repeat(2, 1fr);
   gap: 200px;
   margin: auto;
+}
+
+@media only screen and (max-width: 1100px){
+  .bag{
+    width: 350px;
+  }
+
+  .bag > .list{
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .bag > .list > .left{
+    text-align: center;
+  }
+
+  .bag > .list > .right{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
 }

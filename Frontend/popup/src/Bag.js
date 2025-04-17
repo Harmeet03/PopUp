@@ -18,7 +18,8 @@ const Bag = () => {
     const fetchBagList = async () => {
 
         try{
-            const response = await fetch(`http://localhost:5000/bag-list`);
+            // const response = await fetch(`http://localhost:5000/bag-list`);
+            const response = await fetch(`https://popup-9ksu.onrender.com/bag-list`);
             if(response.ok){
                 const bagList = await response.json();
                 setBag(bagList)

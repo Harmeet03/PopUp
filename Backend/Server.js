@@ -12,7 +12,8 @@ database();
 const Port = process.env.PORT
 
 const connection = {
-    origin: 'http://localhost:3000',
+    // origin: 'http://localhost:3000',
+    origin: 'https://app-popup.netlify.app',
     credentials: true
 };
 
@@ -25,13 +26,14 @@ app.use(express.urlencoded({ extended: true }));
 const server = async () => {
     e.preventDefault();
     try{
-        const request = await fetch(`http://localhost:${Port}`, {
+        const request = await fetch(`https://app-popup.netlify.app`, {
             method: "POST",
             mode: "cors",
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json',
-                'Access-Control-Allow-Origin': 'http://localhost:3000'
+                // 'Access-Control-Allow-Origin': 'http://localhost:3000'
+                'Access-Control-Allow-Origin': 'https://app-popup.netlify.app'
             }
         });
         if(request.ok){
