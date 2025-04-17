@@ -33,7 +33,7 @@ const server = async () => {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json',
                 // 'Access-Control-Allow-Origin': 'http://localhost:3000'
-                'Access-Control-Allow-Origin': 'https://app-popup.netlify.app'
+                // 'Access-Control-Allow-Origin': 'https://app-popup.netlify.app'
             }
         });
         if(request.ok){
