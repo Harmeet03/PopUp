@@ -1,3 +1,6 @@
+// © 2025 Harmeet Singh. All rights reserved.
+// This code is for demonstration purposes only. Unauthorized use is strictly prohibited.
+
 // SERVER BASIC SETTING
 require('dotenv').config();
 const mongoose = require('mongoose');
