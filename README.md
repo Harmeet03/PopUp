@@ -1,4 +1,3 @@
-PopUp
 PopUp is a full-stack E-commerce web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). This project aims to provide a seamless shopping experience with features like product browsing, user authentication, and shopping cart management.
 
 Features
